@@ -1,0 +1,205 @@
+version: 1
+title: "Communicating using Markdown"
+tagline: "Your guide to mastering Markdown"
+description: "This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting."
+template:
+  name: "markdown-portfolio"
+  url: "https://github.com/githubtraining/communicating-using-md-template.git"
+tags: [
+  "GitHub","Markdown"
+]
+before:
+  - type: updateBranchProtection
+    branch: master
+    required_status_checks: null
+    enforce_admins: true
+    required_pull_request_reviews:
+      include_admins: true
+    restrictions: null
+  - type: createIssue
+    title: Getting Started with GitHub
+    body: "01-welcome.md"
+    comments:
+      - "01a-create-tasklist.md"
+steps:
+  - title: "Create a task list"
+    description: "Learn about task lists in your first issue."
+    event: "issue_comment.created"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
+    actions:
+      - type: gate
+        left: '(-|\*)\s+\[[x|X|\s]\]\s+.+'
+        operator: test
+        right: '%payload.comment.body%'
+        else:
+          - type: gate
+            left: '(-|\*)\s+\[[x|X|\s]+\]\s+.+'
+            operator: test
+            right: '%payload.comment.body%'
+            else:
+              - type: respond
+                with: '01d-tasklist.md'
+          - type: respond
+            with: '01e-taskwhitespaces.md'
+      - type: respond
+        with: '01b-turn-on-ghp.md'
+
+  - title: "Turn on GitHub Pages"
+    description: "Create serve your repository contents on a web page using GitHub Pages."
+    event: "deployment"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/settings
+    actions:
+      - type: createPullRequest
+        title: Give your portfolio a header
+        body: '02-headers.md'
+        head: add-headers
+      - type: closeIssue
+        issue: Getting started with this repo
+      - type: respond
+        issue: Getting started with this repo
+        with: '01c-close-issue.md'
+        data:
+          prUrl: '%actions[0].data.html_url%'
+
+  - title: "Add headers"
+    description: "Add headers to some unformatted content."
+    event: "pull_request.synchronize"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2/files
+    actions:
+      - type: getFileContents
+        filename: '_includes/01-name.md'
+      - type: gate
+        left: '/^#.+/gm'
+        operator: test
+        right: '%actions[0]%'
+        else:
+          type: respond
+          with: 03-request-changes.md
+      - type: removeBranchProtection
+      - type: respond
+        with: 03-pr-succeeds.md
+
+  - title: "Merge your headers"
+    description: "Merge your first PR to see headers in action."
+    event: "pull_request.closed"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2/files
+    actions:
+      - type: gate
+        left: '%payload.pull_request.merged%'
+      - type: updateBranchProtection
+      - type: createPullRequest
+        title: Introduce yourself to the world
+        body: 04-add-image.md
+        head: add-images-links
+      - type: respond
+        with: 03-next.md
+        data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
+          prUrl: '%actions[2].data.html_url%'
+
+  - title: "Add an image"
+    description: "Learn how to place images in Markdown by adding your photo."
+    event: "pull_request.synchronize"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3/files
+    actions:
+      - type: getFileContents
+        filename: '_includes/02-image.md'
+      - type: gate
+        left: '/!\[.+\]\(.+\)/g'
+        operator: test
+        right: '%actions[0]%'
+        else:
+          type: respond
+          with: 04-request-changes-image.md
+      - type: respond
+        with: 04-image-works-url.md
+      
+  - title: "Add a profile link"
+    description: "Learn how to create links in Markdown."
+    event: "pull_request.synchronize"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3/files
+    actions:
+      - type: getFileContents
+        filename: '_includes/03-links.md'
+      - type: gate
+        left: '/!?\[.+\]\(.+\)/g'
+        operator: test
+        right: '%actions[0]%'
+        else:
+          type: respond
+          with: 04-request-changes-link.md
+      - type: removeBranchProtection
+      - type: respond
+        with: 04-success.md
+
+  - title: "Merge your image and link"
+    description: "Merge your second PR to introduce yourself to the world."
+    event: "pull_request.closed"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3/files
+    actions:
+      - type: gate
+        left: '%payload.pull_request.merged%'
+      - type: updateBranchProtection
+      - type: createPullRequest
+        title: A few of your favorite things
+        body: 05-pr-body.md
+        head: add-lists-emphasis
+      - type: respond
+        with: 04-next.md
+        data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
+          prUrl: '%actions[2].data.html_url%'
+
+  - title: "Add a list"
+    description: "Learn to how to create ordered and unordered lists."
+    event: "pull_request.synchronize"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4/files
+    actions:
+      - type: getFileContents
+        filename: '_includes/04-lists.md'
+      - type: gate
+        left: '/(?:\d\.|\*|-)\s.+/gm'
+        operator: test
+        right: '%actions[0]%'
+        else:
+          type: respond
+          with: 05-request-changes.md
+      - type: respond
+        with: 06-emphasis.md
+
+  - title: "Use emphasis"
+    description: "Use bold and italics to emphasize text."
+    event: "pull_request.synchronize"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4/files
+    actions:
+      - type: getFileContents
+        filename: '_includes/05-emphasis.md'
+      - type: gate
+        left: '/([*|_]{1,2}).+\1/gm'
+        operator: test
+        right: '%actions[0]%'
+        else:
+          type: respond
+          with: 05-request-changes.md
+      - type: removeBranchProtection
+      - type: respond
+        with: 05-success.md
+
+  - title: "Merge lists and emphasis"
+    description: "Merge the last updates to your portfolio."
+    event: "pull_request.closed"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4/files
+    actions:
+      - type: gate
+        left: '%payload.pull_request.merged%'
+      - type: createIssue
+        title: More to learn
+        body: 07-more-to-learn.md
+      - type: mergeBranch
+        head: add-theme
+      - type: respond
+        with: 06-next.md
+        data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
+          issueUrl: '%actions[1].data.html_url%'
+order: 2
