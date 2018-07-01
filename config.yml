@@ -50,6 +50,7 @@ steps:
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/settings
     actions:
       - type: createPullRequest
+        action_id: pr
         title: Give your portfolio a header
         body: '02-headers.md'
         head: add-headers
@@ -59,7 +60,7 @@ steps:
         issue: Getting started with this repo
         with: '01c-close-issue.md'
         data:
-          prUrl: '%actions[0].data.html_url%'
+          prUrl: '%actions.pr.data.html_url%'
 
   - title: "Add headers"
     description: "Add headers to some unformatted content."
@@ -67,11 +68,12 @@ steps:
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2/files
     actions:
       - type: getFileContents
+        action_id: fileContents
         filename: '_includes/01-name.md'
       - type: gate
         left: '/^#.+/gm'
         operator: test
-        right: '%actions[0]%'
+        right: '%actions.fileContents%'
         else:
           type: respond
           with: 03-request-changes.md
@@ -88,6 +90,7 @@ steps:
         left: '%payload.pull_request.merged%'
       - type: updateBranchProtection
       - type: createPullRequest
+        action_id: pr
         title: Introduce yourself to the world
         body: 04-add-image.md
         head: add-images-links
@@ -95,7 +98,7 @@ steps:
         with: 03-next.md
         data:
           url: 'https://%user.username%.github.io/%payload.repository.name%'
-          prUrl: '%actions[2].data.html_url%'
+          prUrl: '%actions.pr.data.html_url%'
 
   - title: "Add an image"
     description: "Learn how to place images in Markdown by adding your photo."
@@ -104,10 +107,11 @@ steps:
     actions:
       - type: getFileContents
         filename: '_includes/02-image.md'
+        action_id: fileContents
       - type: gate
         left: '/!\[.+\]\(.+\)/g'
         operator: test
-        right: '%actions[0]%'
+        right: '%actions.fileContents%'
         else:
           type: respond
           with: 04-request-changes-image.md
@@ -121,10 +125,11 @@ steps:
     actions:
       - type: getFileContents
         filename: '_includes/03-links.md'
+        action_id: fileContents
       - type: gate
         left: '/!?\[.+\]\(.+\)/g'
         operator: test
-        right: '%actions[0]%'
+        right: '%actions.fileContents%'
         else:
           type: respond
           with: 04-request-changes-link.md
@@ -143,12 +148,13 @@ steps:
       - type: createPullRequest
         title: A few of your favorite things
         body: 05-pr-body.md
+        action_id: pr
         head: add-lists-emphasis
       - type: respond
         with: 04-next.md
         data:
           url: 'https://%user.username%.github.io/%payload.repository.name%'
-          prUrl: '%actions[2].data.html_url%'
+          prUrl: '%actions.pr.data.html_url%'
 
   - title: "Add a list"
     description: "Learn to how to create ordered and unordered lists."
@@ -157,10 +163,11 @@ steps:
     actions:
       - type: getFileContents
         filename: '_includes/04-lists.md'
+        action_id: fileContents
       - type: gate
         left: '/(?:\d\.|\*|-)\s.+/gm'
         operator: test
-        right: '%actions[0]%'
+        right: '%actions.fileContents%'
         else:
           type: respond
           with: 05-request-changes.md
@@ -174,10 +181,11 @@ steps:
     actions:
       - type: getFileContents
         filename: '_includes/05-emphasis.md'
+        action_id: fileContents
       - type: gate
         left: '/([*|_]{1,2}).+\1/gm'
         operator: test
-        right: '%actions[0]%'
+        right: '%actions.fileContents%'
         else:
           type: respond
           with: 05-request-changes.md
@@ -195,11 +203,12 @@ steps:
       - type: createIssue
         title: More to learn
         body: 07-more-to-learn.md
+        action_id: issue
       - type: mergeBranch
         head: add-theme
       - type: respond
         with: 06-next.md
         data:
           url: 'https://%user.username%.github.io/%payload.repository.name%'
-          issueUrl: '%actions[1].data.html_url%'
+          issueUrl: '%actions.issue.data.html_url%'
 order: 2
