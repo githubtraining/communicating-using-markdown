@@ -211,4 +211,10 @@ steps:
         data:
           url: 'https://%user.username%.github.io/%payload.repository.name%'
           issueUrl: '%actions.issue.data.html_url%'
+      - type: octokit
+        method: repos.edit
+        owner: '%payload.repository.owner.login%'
+        repo: '%payload.repository.name%'
+        name: '%payload.repository.name%'
+        homepage: 'https://%user.username%.github.io/%payload.repository.name%'
 order: 2
