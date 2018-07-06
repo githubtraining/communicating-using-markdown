@@ -7,7 +7,7 @@ Something doesn't look quite right with this image. Make sure:
 ### :keyboard: Activity: Add an image
 
 1. Click the "Files changed" tab
-1. Scroll to find the `_layouts/02-image.md`
+1. Scroll to find the `_includes/02-image.md`
 1. Click the :pencil: pencil icon
 1. Add an image using the syntax `![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`
 1. Scroll to the bottom and commit your changes to your branch
