@@ -61,6 +61,7 @@ steps:
         with: '01c-close-issue.md'
         data:
           prUrl: '%actions.pr.data.html_url%'
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
 
   - title: "Add headers"
     description: "Add headers to some unformatted content."
