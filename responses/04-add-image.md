@@ -14,7 +14,7 @@ Let's add an image. Don't forget to include descriptive text in the square brack
 ### :keyboard: Activity: Adding an image
 
 1. As you did before, edit the file in this pull request.
-2. In the file, replace `_layouts/02-image.md` with the correct Markdown for your image of choice. Don't forget to include alt-text!
+2. In the file, replace `_includes/02-image.md` with the correct Markdown for your image of choice. Don't forget to include alt-text!
 3. Commit <sup>[:book:](https://help.github.com/articles/github-glossary/#commit)</sup> your changes.
 
 <hr>
