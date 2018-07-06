@@ -1,4 +1,4 @@
-Your portfolio is really shaping up! You can see your work here: {{ url }}
+Your portfolio is really shaping up! You can see your work here: https://{{ user.username }}.github.io/{{ repo }}
 
 ### :keyboard: Activity: Delete the branch
 

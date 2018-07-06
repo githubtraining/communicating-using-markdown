@@ -1,4 +1,4 @@
-Take a look at your published site here: {{ url }}
+Take a look at your published site here: https://{{ user.username }}.github.io/{{ repo }}
 
 As we add content throughout the course, this site will update.
 

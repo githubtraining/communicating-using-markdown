@@ -97,7 +97,6 @@ steps:
       - type: respond
         with: 03-next.md
         data:
-          url: 'https://%user.username%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
   - title: "Add an image"
@@ -153,7 +152,6 @@ steps:
       - type: respond
         with: 04-next.md
         data:
-          url: 'https://%user.username%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
   - title: "Add a list"
@@ -209,7 +207,6 @@ steps:
       - type: respond
         with: 06-next.md
         data:
-          url: 'https://%user.username%.github.io/%payload.repository.name%'
           issueUrl: '%actions.issue.data.html_url%'
       - type: octokit
         method: repos.edit

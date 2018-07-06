@@ -6,7 +6,7 @@ Something doesn't look quite right with this link. Make sure:
 ### :keyboard: Activity: Add a link
 
 1. Click the "Files changed" tab
-1. Scroll to find the `_layouts/03-link.md`
+1. Scroll to find the `_includes/03-link.md`
 1. Click the :pencil: pencil icon
 1. Add an image using the syntax `[text](https://example.com)`
 1. Scroll to the bottom and commit your changes to your branch
