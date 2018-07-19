@@ -26,8 +26,7 @@ Watch out! The syntax for task lists is very specific. Be sure to include the sp
 
 ### :keyboard: Activity: Add a comment
 
-1. Add a comment to this issue
-1. Use Markdown to create a list of items to complete. Your task can include any tasks you wish, or you can use this example:
+1. Add a comment to this issue, using Markdown to create a list of items to complete. Your task can include any tasks you wish, or you can use this example:
 
        - [ ] Turn on GitHub Pages
        - [ ] Outline my portfolio
