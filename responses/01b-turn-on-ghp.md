@@ -1,8 +1,8 @@
 ## Step 2: Turn on GitHub Pages
 
-Nicely done @{{ user.username }}! Your Markdown to-do list looks great. :sparkles:
+Nicely done @{{ user.username }}! At least one task in your Markdown to-do list is correct. :sparkles:
 
-Because this project is going to be a static web page, you'll need to enable GitHub Pages.
+Now let's turn our focus to the content of your portfolio. Because this portfolion will be displayed as a static web page, you'll need to enable GitHub Pages.
 
 ### :keyboard: Activity: Enable GitHub Pages
 1. Under your repository name, click [**Settings**](https://github.com/{{ user.username }}/{{ repo }}/settings).
