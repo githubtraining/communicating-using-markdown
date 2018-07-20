@@ -71,7 +71,7 @@ steps:
         action_id: fileContents
         filename: '_includes/01-name.md'
       - type: gate
-        left: '/^#.+/gm'
+        left: '/^#{1,6}\s.+/gm'
         operator: test
         right: '%actions.fileContents%'
         else:
