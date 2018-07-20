@@ -1,11 +1,10 @@
-:thinking: I don't see a list with emphasis yet. To complete this exercise, you need to add a list to the `_includes/04-lists.md` file and add emphasis in the form of a *bold* or _italicized_ words.
+:thinking: I don't see any text with emphasis yet. To complete this exercise, you need to add some emphasized text to the `_includes/05-emphasis.md` file, in the form of a *bold* or _italicized_ words.
 
-### :keyboard: Activity: Add a list and emphasis
+### :keyboard: Activity: Add emphasis
 
 1. Click the "Files changed" tab
-1. Scroll to find the `_includes/04-lists.md`
+1. Scroll to find the `_includes/05-emphasis.md`
 1. Click the :pencil: pencil icon
-1. Add a list using either `-` or `*` to indicate the bullets (remember to add a space after the `-` or `*`)
 1. Add emphasis using `**` for **bold** or `_` for _italics_ (emphasis should not have a space between the markdown and the word to be modified)
 1. Scroll to the bottom and commit your changes to your branch
 

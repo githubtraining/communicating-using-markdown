@@ -186,7 +186,7 @@ steps:
         right: '%actions.fileContents%'
         else:
           type: respond
-          with: 05-request-changes.md
+          with: 06-request-changes.md
       - type: removeBranchProtection
       - type: respond
         with: 05-success.md
