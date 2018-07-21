@@ -76,14 +76,13 @@ In this pull request, you'll learn about lists and emojis. You'll also list a fe
   <hr>
 </details>
 
-### Adding accomplishments
+### Adding a list
 
-I've started a list for you in the "Accomplishments" section. Fill out that list, or add another one somewhere else.
-> _Not sure what to type? That's OK! Create a fictional resume based on your favorite movie or book character!_
+Help people get to know you by adding a list containing a few of your favorite things. Don't know what to add? Why not add a list of your favorite books or places to eat. 
 
-### :keyboard: Activity: Complete the lists
-1. As before, edit the `_includes/04-lists.md` in this pull request.
-1. Create a list somewhere in the file. It can be ordered or unordered.
+### :keyboard: Activity: Create a list
+1. Edit the `_includes/04-lists.md` in this pull request.
+1. Create a markdown list in the file. It can be ordered or unordered.
 1. Commit your changes.
 
 <hr>
