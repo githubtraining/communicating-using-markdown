@@ -65,7 +65,7 @@ steps:
   - title: "Add headers"
     description: "Add headers to some unformatted content."
     event: "pull_request.synchronize"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2
     actions:
       - type: getFileContents
         action_id: fileContents
@@ -84,7 +84,7 @@ steps:
   - title: "Merge your headers"
     description: "Merge your first PR to see headers in action."
     event: "pull_request.closed"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/2
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
@@ -102,7 +102,7 @@ steps:
   - title: "Add an image"
     description: "Learn how to place images in Markdown by adding your photo."
     event: "pull_request.synchronize"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
     actions:
       - type: getFileContents
         filename: '_includes/02-image.md'
@@ -120,7 +120,7 @@ steps:
   - title: "Add a profile link"
     description: "Learn how to create links in Markdown."
     event: "pull_request.synchronize"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
     actions:
       - type: getFileContents
         filename: '_includes/03-links.md'
@@ -139,7 +139,7 @@ steps:
   - title: "Merge your image and link"
     description: "Merge your second PR to introduce yourself to the world."
     event: "pull_request.closed"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
@@ -157,7 +157,7 @@ steps:
   - title: "Add a list"
     description: "Learn to how to create ordered and unordered lists."
     event: "pull_request.synchronize"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4
     actions:
       - type: getFileContents
         filename: '_includes/04-lists.md'
@@ -175,7 +175,7 @@ steps:
   - title: "Use emphasis"
     description: "Use bold and italics to emphasize text."
     event: "pull_request.synchronize"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4
     actions:
       - type: getFileContents
         filename: '_includes/05-emphasis.md'
@@ -194,7 +194,7 @@ steps:
   - title: "Merge lists and emphasis"
     description: "Merge the last updates to your portfolio."
     event: "pull_request.closed"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4/files
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/4
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
