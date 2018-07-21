@@ -202,3 +202,6 @@ Now that you have mastered the basics of Markdown @{{ user.username }}, here's s
 </details>
 
 Want to keep learning? Feel free to [check out our other courses]({{ host }}/courses).
+
+<hr>
+<h3 align="center">I won't respond to this issue, just close it when you are done!</h3>

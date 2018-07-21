@@ -6,7 +6,7 @@ In this pull request, you'll learn about lists and emojis. You'll also list a fe
 
 <details>
   <summary>Emoji</summary>
-  <hr>
+  
   ### Emoji
 
   Emoji are fun :sparkles:, and they can be silly :stuck_out_tongue_winking_eye:, but they can also be an important communication tool when working with remote teams ✅. Tone doesn't come across as clearly when reading text as it comes speaking face to face, and emojis can be helpful in conveying context and emotions. :heart:
@@ -32,7 +32,7 @@ In this pull request, you'll learn about lists and emojis. You'll also list a fe
 
 <details>
   <summary>Ordered Lists</summary>
-  <hr>
+  
   ### Ordered Lists
 
   Ordered lists have numbers. You can nest ordered lists within a list item by indenting them. You can read more about [formatting and syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/) in the _GitHub Help_.
@@ -56,7 +56,7 @@ In this pull request, you'll learn about lists and emojis. You'll also list a fe
 
 <details>
  <summary>Unordered Lists</summary>
- <hr>
+ 
   ### Unordered Lists
 
   To create an unordered list, use either the `-` or `*` character. As with ordered lists, you can nest a list by indenting two spaces.
