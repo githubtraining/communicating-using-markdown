@@ -1,10 +1,9 @@
-version: 1
 title: "Communicating using Markdown"
 tagline: "Your guide to mastering Markdown"
 description: "This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting."
 template:
   name: "markdown-portfolio"
-  url: "https://github.com/githubtraining/communicating-using-md-template.git"
+  repo: "communicating-using-md-template"
 tags: [
   "GitHub","Markdown"
 ]
