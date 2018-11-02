@@ -213,4 +213,3 @@ steps:
         repo: '%payload.repository.name%'
         name: '%payload.repository.name%'
         homepage: 'https://%user.username%.github.io/%payload.repository.name%'
-order: 2
