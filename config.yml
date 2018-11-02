@@ -10,11 +10,9 @@ tags: [
 before:
   - type: updateBranchProtection
     branch: master
-    required_status_checks: null
     enforce_admins: true
     required_pull_request_reviews:
       include_admins: true
-    restrictions: null
   - type: createIssue
     title: Getting Started with GitHub
     body: "01-welcome.md"
