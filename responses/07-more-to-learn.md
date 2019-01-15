@@ -150,12 +150,18 @@ Now that you have mastered the basics of Markdown @{{ user.username }}, here's s
 
   To separate out a larger block of code, use three ``` characters instead of one, and set the text aside in its own paragraph.
 
+  What we type:
+  
+    ```
+    Anything written in this **paragraph** will not be _formatted_ even if it would normally be recognized in this setting. :taco:
+    ```
+    
+  What we see:
+  
   ```
   Anything written in this **paragraph** will not be _formatted_ even if it would normally be recognized in this setting. :taco:
-  ```
-
-  Anything written in this **paragraph** will not be _formatted_ even if it would normally be recognized in this setting. :taco:
-  <hr>
+   ```
+<hr>
 </details>
 
 <details>
