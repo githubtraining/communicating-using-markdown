@@ -4,7 +4,7 @@ I gave your portfolio a makeover by adding a Jekyll theme. To select another the
 
 ### :keyboard: Activity: Delete the branch
 
-Delete your branch in this pull request.
+1. Delete your branch in this pull request.
 
 <hr>
-<h3 align="center"><a href="{{ issueUrl }}">Go to the last step</a></h3>
+<h3 align="center"><a href="{{ issueUrl }}">Go to the last step.</a></h3>

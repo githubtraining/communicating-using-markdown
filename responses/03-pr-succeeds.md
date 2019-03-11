@@ -4,7 +4,7 @@ I see you've added at least one header, @{{ user.username }}. You can continue w
 
 ### :keyboard: Activity: Merge the Pull Request
 
-Click **Merge pull request** below.
+1. Click **Merge pull request** below.
 
 <hr>
 <h3 align="center">Watch below for my response!</h3>

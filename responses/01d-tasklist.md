@@ -6,7 +6,7 @@ I didn't see a task list in that comment. Remember, a task list starts with the 
 - [ ] Introduce myself to the world
 ```
 
-If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
 
 <hr>
 <h3 align="center">Watch below your comment for my response</h3>

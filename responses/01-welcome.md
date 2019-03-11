@@ -4,8 +4,7 @@ In this repository <sup>[:book:](https://help.github.com/articles/github-glossar
 
 ### What is Markdown?
 
-Markdown is a lightweight syntax for writing all types of communication on GitHub, as well as many other places on the web. You can format words as **bold** or _italic_, add images, and create lists. Mostly, Markdown is just regular text combined with a few non-alphabetic symbols, such as `#` or `*`. You can use Markdown with the formatting toolbar in issues <sup>[:book:](https://help.github.com/articles/github-glossary/#issues)</sup> and pull requests <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>, or you can learn the syntax and type it yourself.
-
+Markdown is a lightweight syntax for communicating on GitHub, and many other websites. You can format words as **bold** or _italic_, add images, and create lists. Markdown is regular text combined with a few non-alphabetic symbols, such as `#` or `*`. You can use Markdown with the formatting toolbar in issues <sup>[:book:](https://help.github.com/articles/github-glossary/#issues)</sup> and pull requests <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>, or you can type the syntax.
 
 You can use Markdown most places around GitHub:
 

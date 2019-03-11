@@ -4,7 +4,7 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
 
 ### :keyboard: Activity: Merge the Pull Request
 
-Go ahead and click **Merge pull request** below.
+1. Click **Merge pull request** below.
 
 <hr>
 <h3 align="center">Watch below for my response!</h3>

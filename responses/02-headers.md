@@ -32,4 +32,4 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
 1. Click **Commit changes**.
 
 <hr>
-<h3 align="center">Watch below for my response</h3>
+<h3 align="center">Watch below for my response.</h3>

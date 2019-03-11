@@ -16,7 +16,6 @@ During this course you successfully:
     - Creating links to other websites in the `03-links.md` file
     - Adding your accomplishments to the `04-lists.md` file
     - Using emphasis like **bold** and _italics_ in the `05-emphasis.md` file
-- Learned about Jekyll Themes
 
 ## What's next?
 

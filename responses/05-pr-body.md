@@ -1,6 +1,6 @@
 ## Step 8: Add a list
 
-In this pull request, you'll learn about lists and emojis. You'll also list a few details in your resume!
+In this pull request, you'll learn about lists and emoji. You'll also list a few details in your resume.
 
 :point_down: _These are expandable dialogues! Click to open and see more information._
 

@@ -16,6 +16,7 @@ _You **can** combine them_
 
 1. Edit the file `_includes/05-emphasis.md` in this pull request.
 1. Use the **Preview** tab and your :sparkles: new Markdown knowledge, add emphasis (like bold or italics) to your skills.
+1. Enter a short and descriptive commit message.
 1. Commit your changes.
 
 <hr>
