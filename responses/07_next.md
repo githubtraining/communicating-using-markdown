@@ -1,4 +1,4 @@
-Good job with images and links! See your work here: {{ url }}
+Good job with images and links! See your work here: https://{{ user.username }}.github.io/{{ repo }}
 
 ### :keyboard: Activity: Delete the branch
 
