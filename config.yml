@@ -77,9 +77,10 @@ steps:
         else:
           type: respond
           with: 03_request-changes.md
-      - type: removeBranchProtection
-      - type: respond
-        with: 03_pr-succeeds.md
+      - type: createReview
+        body: 03_pr-succeeds.md
+        event: APPROVE
+        pullRequest: Give your portfolio a header
 
   #4 - Merge your headers
   - title: "Merge your headers"
@@ -89,7 +90,6 @@ steps:
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
-      - type: updateBranchProtection
       - type: createPullRequest
         action_id: pr
         title: Introduce yourself to the world
@@ -135,9 +135,10 @@ steps:
         else:
           type: respond
           with: 06_request-changes-link.md
-      - type: removeBranchProtection
-      - type: respond
-        with: 06_success.md
+      - type: createReview
+        body: 06_success.md
+        event: APPROVE
+        pullRequest: Introduce yourself to the world
   
     #7 - Merge your image and link
   - title: "Merge your image and link"
@@ -147,7 +148,6 @@ steps:
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
-      - type: updateBranchProtection
       - type: createPullRequest
         title: A few of your favorite things
         body: 07_pr-body.md
@@ -193,9 +193,10 @@ steps:
         else:
           type: respond
           with: 09_request-changes.md
-      - type: removeBranchProtection
-      - type: respond
-        with: 09_success.md
+      - type: createReview
+        body: 09_success.md
+        event: APPROVE
+        pullRequest: A few of your favorite things
 
   #10 - Merge lists and  emphasis
   - title: "Merge lists and emphasis"
