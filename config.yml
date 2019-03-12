@@ -1,4 +1,4 @@
-title: "Communicating using Markdown"
+title: "Communicating using Markdown Test" 
 tagline: "Your guide to mastering Markdown"
 description: "This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting."
 template:
@@ -19,7 +19,7 @@ before:
     comments:
       - "00_create-tasklist.md"
 steps:
-  #1 - Create a task list 
+  #1 - Create a task list
   - title: "Create a task list"
     description: "Learn about task lists in your first issue."
     event: "issue_comment.created"
@@ -60,7 +60,7 @@ steps:
         with: '02_close-issue.md'
         data:
           prUrl: '%actions.pr.data.html_url%'
-  
+
   #3 - Add headers
   - title: "Add headers"
     description: "Add headers to some unformatted content."
@@ -119,7 +119,7 @@ steps:
       - type: respond
         with: 05_image-works-url.md
 
-  #6 - Add a profile link    
+  #6 - Add a profile link
   - title: "Add a profile link"
     description: "Learn how to create links in Markdown."
     event: "pull_request.synchronize"
@@ -139,7 +139,7 @@ steps:
         body: 06_success.md
         event: APPROVE
         pullRequest: Introduce yourself to the world
-  
+
     #7 - Merge your image and link
   - title: "Merge your image and link"
     description: "Merge your second PR to introduce yourself to the world."
