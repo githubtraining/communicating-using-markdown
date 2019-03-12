@@ -41,6 +41,8 @@ steps:
             with: '01_taskwhitespaces.md'
       - type: respond
         with: '01_turn-on-ghp.md'
+        data:
+          url: '%payload.repository.html_url%'
 
   #2 - Turn on GitHub Pages
   - title: "Turn on GitHub Pages"
@@ -59,6 +61,7 @@ steps:
         issue: Getting Started with GitHub
         with: '02_close-issue.md'
         data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
   #3 - Add headers
@@ -98,6 +101,7 @@ steps:
       - type: respond
         with: 04_next.md
         data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
   #5 - Add an image
@@ -156,6 +160,7 @@ steps:
       - type: respond
         with: 07_next.md
         data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
   #8 - Add a list
@@ -214,6 +219,7 @@ steps:
       - type: respond
         with: 10_next.md
         data:
+          url: 'https://%user.username%.github.io/%payload.repository.name%'
           issueUrl: '%actions.issue.data.html_url%'
       - type: octokit
         method: repos.edit
