@@ -65,6 +65,8 @@ steps:
         title: Give your portfolio a header
         body: '02_headers.md'
         head: add-headers
+        data:
+          thePayload: '%payload%'
       - type: closeIssue
         issue: Getting Started with GitHub
       - type: respond
