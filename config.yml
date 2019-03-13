@@ -10,10 +10,10 @@ preferences:
     label: Preferred Git tool
     description: You can follow this course's instructions using whichever Git tool you prefer.
     options:
-      - label: Command line
-        value: cli
       - label: GitHub.com
         value: dotcom
+      - label: Command line
+        value: cli
 tags: [
   "GitHub","Markdown"
 ]
