@@ -39,7 +39,7 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
       git checkout add-headers
       ```
 1. In your text editor of choice, open the file called `01-name.md`, in the `_includes` directory. On the first line, replace the text with your name, and add a `#` before the content to make it an H1 Header.
-1. Save your file.
+1. Save your file. Every time you make changes, it's a good idea to type `git status`. You should type this after you stage files, and after you commit. It's always a good idea!
 1. Stage your file:
       ```shell
       git add _includes/01-name.md
