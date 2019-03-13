@@ -4,6 +4,16 @@ description: "This course will walk you through everything you need to start org
 template:
   name: "markdown-portfolio"
   repo: "communicating-using-md-template"
+preferences:
+  - type: radio
+    name: git_tool
+    label: Preferred Git tool
+    description: You can follow this course's instructions using whichever Git tool you prefer.
+    options:
+      - label: Command line
+        value: cli
+      - label: GitHub.com
+        value: dotcom
 tags: [
   "GitHub","Markdown"
 ]
