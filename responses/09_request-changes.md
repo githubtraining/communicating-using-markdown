@@ -2,7 +2,7 @@
 
 ### :keyboard: Activity: Add emphasis
 
-{% if preferences.git_tool = 'cli' %}
+{% if preferences.gitTool = 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:
       ```shell
       git status

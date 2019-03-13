@@ -6,7 +6,7 @@ Something doesn't look quite right with this image. Make sure:
 
 ### :keyboard: Activity: Add an image
 
-{% if preferences.git_tool = 'cli' %}
+{% if preferences.gitTool = 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
       ```shell
       git checkout add-images-links

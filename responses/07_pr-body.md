@@ -82,7 +82,7 @@ Help people get to know you by adding a list containing a few of your favorite t
 
 ### :keyboard: Activity: Create a list
 
-{% if preferences.git_tool = 'cli' %}
+{% if preferences.gitTool = 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
       ```shell
       git checkout add-lists-emphasis

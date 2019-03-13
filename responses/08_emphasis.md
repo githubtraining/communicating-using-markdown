@@ -14,7 +14,7 @@ _You **can** combine them_
 
 ### :keyboard: Activity: Add some _emphasis_
 
-{% if preferences.git_tool = 'cli' %}
+{% if preferences.gitTool = 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:
       ```shell
       git status

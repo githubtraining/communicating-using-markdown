@@ -13,7 +13,7 @@ Let's add an image. Don't forget to include descriptive text in the square brack
 
 ### :keyboard: Activity: Adding an image
 
-{% if preferences.git_tool = 'cli' %}
+{% if preferences.gitTool = 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
       ```shell
       git checkout add-images-links

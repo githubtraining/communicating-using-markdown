@@ -10,7 +10,7 @@ You might link to a [website](https://github.com/), a [repository](https://githu
 
 ## :keyboard: Activity: Add a link
 
-{% if preferences.git_tool = 'cli' %}
+{% if preferences.gitTool = 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-images-links`:
       ```shell
       git status

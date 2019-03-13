@@ -6,7 +6,7 @@ template:
   repo: "communicating-using-md-template"
 preferences:
   - type: radio
-    name: git_tool
+    name: gitTool
     label: Preferred Git tool
     description: You can follow this course's instructions using whichever Git tool you prefer.
     options:
