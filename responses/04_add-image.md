@@ -13,9 +13,30 @@ Let's add an image. Don't forget to include descriptive text in the square brack
 
 ### :keyboard: Activity: Adding an image
 
+{% if preferences.git_tool = 'cli' %}
+1. In your shell, checkout to the branch in this pull request:
+      ```shell
+      git checkout add-images-links
+      ```
+1. In your text editor of choice, open the file called `02-image.md`, in the `_includes` directory. In the file, replace the content with the correct Markdown for your image of choice. Don't forget to include alt-text!
+1. Save your file.
+1. Stage your new file:
+      ```shell
+      git add _includes/02-image.md
+      ```
+1. Commit the change and add a commit message:
+      ```shell
+      git commit -m "<YOUR MESSAGE>"
+      ```
+1. Push your new commit to GitHub:
+      ```shell
+      git push
+      ```
+{% else %}
 1. As you did before, edit the file in this pull request.
-2. In the file, replace `_includes/02-image.md` with the correct Markdown for your image of choice. Don't forget to include alt-text!
+2. In the file, replace the content in `_includes/02-image.md` with the correct Markdown for your image of choice. Don't forget to include alt-text!
 3. Commit your changes.
+{% endif %}
 
 <hr>
 <h3 align="center">Watch below for my response!</h3>

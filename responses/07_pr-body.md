@@ -6,7 +6,7 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
 
 <details>
   <summary>Emoji</summary>
-  
+
   ### Emoji
 
   Emoji are fun :sparkles:, and they can be silly :stuck_out_tongue_winking_eye:, but they can also be an important communication tool when working with remote teams ✅. Tone doesn't come across as clearly when reading text as it comes speaking face to face, and emojis can be helpful in conveying context and emotions. :heart:
@@ -32,7 +32,7 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
 
 <details>
   <summary>Ordered Lists</summary>
-  
+
   ### Ordered Lists
 
   Ordered lists have numbers. You can nest ordered lists within a list item by indenting them. You can read more about [formatting and syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/) in the _GitHub Help_.
@@ -56,7 +56,7 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
 
 <details>
  <summary>Unordered Lists</summary>
- 
+
   ### Unordered Lists
 
   To create an unordered list, use either the `-` or `*` character. As with ordered lists, you can nest a list by indenting two spaces.
@@ -78,12 +78,34 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
 
 ### Adding a list
 
-Help people get to know you by adding a list containing a few of your favorite things. Don't know what to add? Why not add a list of your favorite books or places to eat. 
+Help people get to know you by adding a list containing a few of your favorite things. Don't know what to add? Why not add a list of your favorite books or places to eat.
 
 ### :keyboard: Activity: Create a list
+
+{% if preferences.git_tool = 'cli' %}
+1. In your shell, checkout to the branch in this pull request:
+      ```shell
+      git checkout add-lists-emphasis
+      ```
+1. In your text editor of choice, open the file called `04-lists.md`, in the `_includes` directory. Create a markdown list in the file. It can be ordered or unordered.
+1. Save your file.
+1. Stage your new file:
+      ```shell
+      git add _includes/04-lists.md
+      ```
+1. Commit the change and add a commit message:
+      ```shell
+      git commit -m "<YOUR MESSAGE>"
+      ```
+1. Push your new commit to GitHub:
+      ```shell
+      git push
+      ```
+{% else %}
 1. Edit the `_includes/04-lists.md` in this pull request.
 1. Create a markdown list in the file. It can be ordered or unordered.
 1. Commit your changes.
+{% endif %}
 
 <hr>
 <h3 align="center">Watch below for my response!</h3>
