@@ -24,7 +24,7 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
 
 ### :keyboard: Activity: Edit your file with headers
 
-{% if preferences.gitTool = 'cli' %}
+{% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.
 1. Clone this repository:
       ```shell

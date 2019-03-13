@@ -2,7 +2,7 @@ You've made a change to this file, but I don't see a header yet. Add another com
 
 ### :keyboard: Activity: Add a header
 
-{% if preferences.gitTool = 'cli' %}
+{% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.
 1. Clone this repository:
       ```shell

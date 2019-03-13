@@ -8,7 +8,7 @@ It is important to put a space between the `-` or `*` and the list item text.
 
 ### :keyboard: Activity: Add a list
 
-{% if preferences.gitTool = 'cli' %}
+{% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
       ```shell
       git checkout add-lists-emphasis
