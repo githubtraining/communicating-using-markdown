@@ -11,7 +11,7 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
     ```
 2. Merge your branch:
     ```shell
-    git merge {{ branch }}
+    git merge add-lists-emphasis
     ```
 3. Push the merged history to GitHub:
     ```shell
@@ -19,7 +19,7 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
     ```
 4. Delete your the branch locally:
     ```shell
-    git branch -d {{ branch }}
+    git branch -d add-lists-emphasis
     ```
 {% else %}
 1. Click **Merge pull request** below.

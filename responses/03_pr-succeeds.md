@@ -11,7 +11,7 @@ I see you've added at least one header, @{{ user.username }}. You can continue w
     ```
 2. Merge your branch:
     ```shell
-    git merge {{ branch }}
+    git merge add-headers
     ```
 3. Push the merged history to GitHub:
     ```shell
@@ -19,7 +19,7 @@ I see you've added at least one header, @{{ user.username }}. You can continue w
     ```
 4. Delete your the branch locally:
     ```shell
-    git branch -d {{ branch }}
+    git branch -d add-headers
     ```
 {% else %}
 1. Click **Merge pull request** below.

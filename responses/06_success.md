@@ -11,7 +11,7 @@ This looks great, @{{ user.username }}! You've created a link to show off your p
     ```
 2. Merge your branch:
     ```shell
-    git merge {{ branch }}
+    git merge add-images-links
     ```
 3. Push the merged history to GitHub:
     ```shell
@@ -19,7 +19,7 @@ This looks great, @{{ user.username }}! You've created a link to show off your p
     ```
 4. Delete your the branch locally:
     ```shell
-    git branch -d {{ branch }}
+    git branch -d add-images-links
     ```
 {% else %}
 1. Click **Merge pull request** below.
