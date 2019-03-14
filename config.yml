@@ -1,9 +1,19 @@
-title: "Communicating using Markdown"
+title: "Communicating using Markdown Test"
 tagline: "Your guide to mastering Markdown"
 description: "This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting."
 template:
   name: "markdown-portfolio"
   repo: "communicating-using-md-template"
+preferences:
+  - type: radio
+    name: gitTool
+    label: Preferred Git tool
+    description: You can follow this course's instructions using whichever Git tool you prefer.
+    options:
+      - label: GitHub.com
+        value: dotcom
+      - label: Command line
+        value: cli
 tags: [
   "GitHub","Markdown"
 ]
@@ -15,10 +25,11 @@ before:
       include_admins: true
   - type: createIssue
     title: Getting Started with GitHub
-    body: "01-welcome.md"
+    body: "00_welcome.md"
     comments:
-      - "01a-create-tasklist.md"
+      - "00_create-tasklist.md"
 steps:
+  #1 - Create a task list
   - title: "Create a task list"
     description: "Learn about task lists in your first issue."
     event: "issue_comment.created"
@@ -35,12 +46,15 @@ steps:
             right: '%payload.comment.body%'
             else:
               - type: respond
-                with: '01d-tasklist.md'
+                with: '01_tasklist.md'
           - type: respond
-            with: '01e-taskwhitespaces.md'
+            with: '01_taskwhitespaces.md'
       - type: respond
-        with: '01b-turn-on-ghp.md'
+        with: '01_turn-on-ghp.md'
+        data:
+          url: '%payload.repository.html_url%'
 
+  #2 - Turn on GitHub Pages
   - title: "Turn on GitHub Pages"
     description: "Create serve your repository contents on a web page using GitHub Pages."
     event: "deployment"
@@ -49,16 +63,20 @@ steps:
       - type: createPullRequest
         action_id: pr
         title: Give your portfolio a header
-        body: '02-headers.md'
+        body: '02_headers.md'
         head: add-headers
+        data:
+          thePayload: '%payload%'
       - type: closeIssue
         issue: Getting Started with GitHub
       - type: respond
         issue: Getting Started with GitHub
-        with: '01c-close-issue.md'
+        with: '02_close-issue.md'
         data:
+          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
+  #3 - Add headers
   - title: "Add headers"
     description: "Add headers to some unformatted content."
     event: "pull_request.synchronize"
@@ -73,11 +91,12 @@ steps:
         right: '%actions.fileContents%'
         else:
           type: respond
-          with: 03-request-changes.md
+          with: 03_request-changes.md
       - type: removeBranchProtection
       - type: respond
-        with: 03-pr-succeeds.md
+        with: 03_pr-succeeds.md
 
+  #4 - Merge your headers
   - title: "Merge your headers"
     description: "Merge your first PR to see headers in action."
     event: "pull_request.closed"
@@ -89,13 +108,15 @@ steps:
       - type: createPullRequest
         action_id: pr
         title: Introduce yourself to the world
-        body: 04-add-image.md
+        body: 04_add-image.md
         head: add-images-links
       - type: respond
-        with: 03-next.md
+        with: 04_next.md
         data:
+          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
+  #5 - Add an image
   - title: "Add an image"
     description: "Learn how to place images in Markdown by adding your photo."
     event: "pull_request.synchronize"
@@ -110,10 +131,11 @@ steps:
         right: '%actions.fileContents%'
         else:
           type: respond
-          with: 04-request-changes-image.md
+          with: 05_request-changes-image.md
       - type: respond
-        with: 04-image-works-url.md
-      
+        with: 05_image-works-url.md
+
+  #6 - Add a profile link
   - title: "Add a profile link"
     description: "Learn how to create links in Markdown."
     event: "pull_request.synchronize"
@@ -128,11 +150,12 @@ steps:
         right: '%actions.fileContents%'
         else:
           type: respond
-          with: 04-request-changes-link.md
+          with: 06_request-changes-link.md
       - type: removeBranchProtection
       - type: respond
-        with: 04-success.md
+        with: 06_success.md
 
+    #7 - Merge your image and link
   - title: "Merge your image and link"
     description: "Merge your second PR to introduce yourself to the world."
     event: "pull_request.closed"
@@ -143,14 +166,16 @@ steps:
       - type: updateBranchProtection
       - type: createPullRequest
         title: A few of your favorite things
-        body: 05-pr-body.md
+        body: 07_pr-body.md
         action_id: pr
         head: add-lists-emphasis
       - type: respond
-        with: 04-next.md
+        with: 07_next.md
         data:
+          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
           prUrl: '%actions.pr.data.html_url%'
 
+  #8 - Add a list
   - title: "Add a list"
     description: "Learn to how to create ordered and unordered lists."
     event: "pull_request.synchronize"
@@ -165,10 +190,11 @@ steps:
         right: '%actions.fileContents%'
         else:
           type: respond
-          with: 05-request-changes.md
+          with: 08_request-changes.md
       - type: respond
-        with: 06-emphasis.md
+        with: 08_emphasis.md
 
+  #9 - Use emphasis
   - title: "Use emphasis"
     description: "Use bold and italics to emphasize text."
     event: "pull_request.synchronize"
@@ -183,11 +209,12 @@ steps:
         right: '%actions.fileContents%'
         else:
           type: respond
-          with: 06-request-changes.md
+          with: 09_request-changes.md
       - type: removeBranchProtection
       - type: respond
-        with: 05-success.md
+        with: 09_success.md
 
+  #10 - Merge lists and  emphasis
   - title: "Merge lists and emphasis"
     description: "Merge the last updates to your portfolio."
     event: "pull_request.closed"
@@ -197,17 +224,18 @@ steps:
         left: '%payload.pull_request.merged%'
       - type: createIssue
         title: More to learn
-        body: 07-more-to-learn.md
+        body: 10_more-to-learn.md
         action_id: issue
       - type: mergeBranch
         head: add-theme
       - type: respond
-        with: 06-next.md
+        with: 10_next.md
         data:
+          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
           issueUrl: '%actions.issue.data.html_url%'
       - type: octokit
         method: repos.edit
         owner: '%payload.repository.owner.login%'
         repo: '%payload.repository.name%'
         name: '%payload.repository.name%'
-        homepage: 'https://%user.username%.github.io/%payload.repository.name%'
+        homepage: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
