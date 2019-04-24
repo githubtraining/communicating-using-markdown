@@ -7,4 +7,4 @@ In this course, you’ll learn how to:
 - Use Markdown to add lists, images, and links in a comment or text file
 - Determine where and how to use Markdown in a GitHub repository
 
-This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
+This course has a dedicated message board on the <a href="{{ communityBoard }}">GitHub Community</a> website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
