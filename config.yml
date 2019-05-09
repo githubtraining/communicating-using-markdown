@@ -51,8 +51,6 @@ steps:
             with: '01_taskwhitespaces.md'
       - type: respond
         with: '01_turn-on-ghp.md'
-        data:
-          url: '%payload.repository.html_url%'
 
   #2 - Turn on GitHub Pages
   - title: "Turn on GitHub Pages"
