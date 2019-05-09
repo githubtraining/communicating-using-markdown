@@ -55,7 +55,7 @@ steps:
   #2 - Turn on GitHub Pages
   - title: "Turn on GitHub Pages"
     description: "Create serve your repository contents on a web page using GitHub Pages."
-    event: "deployment"
+    event: page_build
     link: '{{ repoUrl }}/settings'
     actions:
       - type: createPullRequest
