@@ -59,10 +59,10 @@ steps:
     link: '{{ repoUrl }}/settings'
     actions:
       - type: octokit
-         method: repos.getPages
-         owner: '%payload.repository.owner.login%'
-         repo: '%payload.repository.name%'
-         action_id: pagesUrl
+        method: repos.getPages
+        owner: '%payload.repository.owner.login%'
+        repo: '%payload.repository.name%'
+        action_id: pagesUrl
       - type: createPullRequest
         action_id: pr
         title: Give your portfolio a header
