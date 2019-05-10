@@ -10,7 +10,7 @@ You can use Markdown most places around GitHub:
 
 - Comments in issues and pull requests (like this one!)
 - Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://gist.github.com/)
+- Sharing snippets of text in [Gists](https://help.github.com/en/articles/about-gists)
 
 For more information, see “[Writing on GitHub](https://help.github.com/categories/writing-on-github/)” in the _GitHub Help_.
 
