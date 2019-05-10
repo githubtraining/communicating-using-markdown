@@ -58,6 +58,11 @@ steps:
     event: page_build
     link: '{{ repoUrl }}/settings'
     actions:
+      - type: octokit
+         method: repos.getPages
+         owner: '%payload.repository.owner.login%'
+         repo: '%payload.repository.name%'
+         action_id: pagesUrl
       - type: createPullRequest
         action_id: pr
         title: Give your portfolio a header
@@ -71,7 +76,7 @@ steps:
         issue: Getting Started with GitHub
         with: '02_close-issue.md'
         data:
-          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
+          url: '%actions.pagesUrl.data.html_url%'
           prUrl: '%actions.pr.data.html_url%'
 
   #3 - Add headers
