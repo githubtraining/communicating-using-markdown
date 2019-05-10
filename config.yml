@@ -72,6 +72,11 @@ steps:
           thePayload: '%payload%'
       - type: closeIssue
         issue: Getting Started with GitHub
+      - type: octokit
+        method: repos.getPages
+        owner: '%payload.repository.owner.login%'
+        repo: '%payload.repository.name%'
+        action_id: pagesUrl
       - type: respond
         issue: Getting Started with GitHub
         with: '02_close-issue.md'
@@ -113,10 +118,15 @@ steps:
         title: Introduce yourself to the world
         body: 04_add-image.md
         head: add-images-links
+      - type: octokit
+        method: repos.getPages
+        owner: '%payload.repository.owner.login%'
+        repo: '%payload.repository.name%'
+        action_id: pagesUrl
       - type: respond
         with: 04_next.md
         data:
-          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
+          url: '%actions.pagesUrl.data.html_url%'
           prUrl: '%actions.pr.data.html_url%'
 
   #5 - Add an image
@@ -172,10 +182,15 @@ steps:
         body: 07_pr-body.md
         action_id: pr
         head: add-lists-emphasis
+      - type: octokit
+        method: repos.getPages
+        owner: '%payload.repository.owner.login%'
+        repo: '%payload.repository.name%'
+        action_id: pagesUrl
       - type: respond
         with: 07_next.md
         data:
-          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
+          url: '%actions.pagesUrl.data.html_url%'
           prUrl: '%actions.pr.data.html_url%'
 
   #8 - Add a list
@@ -231,10 +246,15 @@ steps:
         action_id: issue
       - type: mergeBranch
         head: add-theme
+      - type: octokit
+        method: repos.getPages
+        owner: '%payload.repository.owner.login%'
+        repo: '%payload.repository.name%'
+        action_id: pagesUrl
       - type: respond
         with: 10_next.md
         data:
-          url: 'https://%payload.repository.owner.login%.github.io/%payload.repository.name%'
+          url: '%actions.pagesUrl.data.html_url%'
           issueUrl: '%actions.issue.data.html_url%'
       - type: octokit
         method: repos.edit
