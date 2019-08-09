@@ -1,10 +1,25 @@
-GitHub is about more than code. It’s a platform for software collaboration—and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests.
+<p align="center"><a href="https://lab.github.com/"><img alt="Learning Lab bot" src="https://user-images.githubusercontent.com/16547949/62085817-83232580-b22a-11e9-8693-7c54205b04e5.png"></a></p>
 
-This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+<h1 align="center">Course: Communicating using Markdown </h1>
 
-In this course, you’ll learn how to:
+This repository powers the Learning Lab course [_Communicating using Markdown_](https://lab.github.com/githubtraining/communicating-using-markdown). 
 
-- Use Markdown to add lists, images, and links in a comment or text file
-- Determine where and how to use Markdown in a GitHub repository
+Every Learning Lab course is made up of:
+- a [course repository](https://github.com/githubtraining/communicating-using-markdown), and
+- a [template repository](https://github.com/githubtraining/communicating-using-md-template)
 
-This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
+The course repository is written in YAML and Markdown. The template repository could be written in any language that supports the learning objectives.
+
+For more information on the goals of this course, check out the [`course-details.md`](course-details.md). 
+
+## Contribute
+
+See something we could improve? Check out the contributing guide in the [community contributors repository](https://github.com/githubtraining/community-contributors/blob/master/CONTRIBUTING.md) for more information on the types of contributions we :heart: and instructions.
+
+We :heart: our community and take great care to ensure it is fun, safe and rewarding. Please review our [Code of Conduct](https://github.com/githubtraining/community-contributors/blob/master/CODE_OF_CONDUCT.md) for community expectations and guidelines for reporting concerns.
+
+## License
+
+All Learning Lab course repositories are licensed under [CC-BY-4.0](../LICENSE) (c) 2019 GitHub, Inc. The template repositories associated with each course may have different licenses.
+
+When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos)
