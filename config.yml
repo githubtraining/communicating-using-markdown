@@ -257,7 +257,7 @@ steps:
           url: '%actions.pagesUrl.data.html_url%'
           issueUrl: '%actions.issue.data.html_url%'
       - type: octokit
-        method: repos.edit
+        method: repos.update
         owner: '%payload.repository.owner.login%'
         repo: '%payload.repository.name%'
         name: '%payload.repository.name%'
