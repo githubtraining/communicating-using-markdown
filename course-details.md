@@ -11,7 +11,7 @@ In this course, you’ll learn how to:
 
 ## What you'll build
 
-![screen shot of published GitHub pages site]()
+![screen shot of published GitHub pages site](https://user-images.githubusercontent.com/9906718/75548040-897db800-5a2c-11ea-9636-80658fa3fc7e.png)
 
 - A published GitHub Pages site showcasing different types of Markdown that you can edit and use in the future
 
