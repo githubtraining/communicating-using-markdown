@@ -4,7 +4,7 @@ Something doesn't look quite right with this image. Make sure:
 - Your image formatting is correct (`![alt-text](image-url)`)
 - The image has alt text
 
-### :keyboard: Activity: Add an image
+### :keyboard: Actividad: Add an image
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:

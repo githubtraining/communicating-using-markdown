@@ -1,6 +1,6 @@
 Good job with images and links! See your work here: {{ url }}
 
-### :keyboard: Activity: Delete the branch
+### :keyboard: Actividad: Delete the branch
 
 1. Delete your branch in this pull request.
 

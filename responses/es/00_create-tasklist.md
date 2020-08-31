@@ -1,44 +1,44 @@
-## Step 1: Create a Task List
+## Paso 1: Crea una lista de tareas
 
-A task list creates checkboxes for people with access <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup>in a repository to check off. They're very useful for tracking issues and pull requests.
+Una lista de tareas crea casillas que las personas con acceso <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> en un repositorio pueden marcar como completadas. Son muy útiles para seguir el progreso de propuestas y solicitudes de extracción.
 
-If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. 
+Si incluyes una lista de tareas en el cuerpo de una propuesta o una solicitud de extracción, verás una barra de progreso en tu lista de propuestas.
 
-Watch out! The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
+¡Cuidado! La sintasis para listas de tareas es muy específica. Asegúrate de incluir los espacios donde hacen falta, porque de lo contrario no se mostrarán correctamente.
 
 
-#### Example markup
+#### Marcado de ejemplo
 
 ```
-- [x] Additional markup is supported, including @mentions, #references, [links](url), **emphasis**, and <del>HTML tags</del>.
-- [x] List syntax is required.
-  - You can nest lists below, too!
-- [x] This item is completed.
-- [ ] This item is not complete.
+- [x] Puedes usar marcado adicional, incluyendo @menciones, #referencias, [enlaces](url), **énfasis** y <del>etiquetas HTML</del>.
+- [x] Se requiere la sintaxis de listas.
+  - ¡También puedes anidar listas, unas dentro de otras!
+- [x] Este elemento está completado.
+- [ ] Este elemento está sin completar.
 ```
 
-#### Rendered
+#### Representación
 
-- [x] Additional markup is supported, including @mentions, #references, [links](url), **emphasis**, and <del>HTML tags</del>.
-- [x] List syntax is required.
-  - You can nest lists below, too!
-- [x] This item is complete.
-- [ ] This item is not complete.
+- [x] Puedes usar marcado adicional, incluyendo @menciones, #referencias, [enlaces](url), **énfasis** y <del>etiquetas HTML</del>.
+- [x] Se requiere la sintaxis de listas.
+  - ¡También puedes anidar listas, unas dentro de otras!
+- [x] Este elemento está completado.
+- [ ] Este elemento está sin completar.
 
-### :keyboard: Activity: Add a comment
+### :keyboard: Actividad: Añade un comentario
 
-1. Add a comment to this issue, using Markdown to create a list of items to complete. Your task can include any tasks you wish, or you can use this example:
+1. Añade un comentario a esta propuesta, usando Markdown para crear una lista de elementos a completar. Tu lista puede incluir las tareas que quieras, o puedes usar este ejemplo:
 
-       - [ ] Turn on GitHub Pages
-       - [ ] Outline my portfolio
-       - [ ] Introduce myself to the world
+       - [ ] Activar GitHub Pages
+       - [ ] Hacer un esquema de mi portafolio
+       - [ ] Presentarme al mundo
 
-1. Use the **Preview** tab to check your markdown formatting.
-1. Click **Comment**.
+1. Utiliza la pestaña **Preview** para comprobar el formato de tu markdown.
+1. Haz clic en **Comment**.
 
-For a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
+Para una versión imprimible de los pasos de este curso, revisa la [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
 <hr>
-<h3 align="center">Watch below your comment for my response.</h3>
+<h3 align="center">Mira debajo de tu comentario para ver mi respuesta.</h3>
 
-> _If you perform an expected action and don't see a response from me after a few seconds, refresh the page for your next steps._
+> _Si realizas la acción prevista y no ves una respuesta por mi parte después de algunos segundos, actualiza la página para ver los siguientes pasos._

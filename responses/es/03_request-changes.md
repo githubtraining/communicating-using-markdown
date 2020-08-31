@@ -1,6 +1,6 @@
 You've made a change to this file, but I don't see a header yet. Add another commit with a header. You can continue to make commits on a branch even after you open a pull request.
 
-### :keyboard: Activity: Add a header
+### :keyboard: Actividad: Add a header
 
 {% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.

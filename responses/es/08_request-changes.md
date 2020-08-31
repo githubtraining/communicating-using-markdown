@@ -6,7 +6,7 @@ Remember the format for a list looks like this:
 
 It is important to put a space between the `-` or `*` and the list item text.
 
-### :keyboard: Activity: Add a list
+### :keyboard: Actividad: Add a list
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:

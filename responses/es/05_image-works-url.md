@@ -1,4 +1,4 @@
-## Step 6: Add a profile link
+## Paso 6: Add a profile link
 
 Your image looks great! Next, you'll want to add links to your awesome portfolio projects. Links help create context when you’re communicating in issues and pull requests.
 
@@ -8,7 +8,7 @@ You might link to a [website](https://github.com/), a [repository](https://githu
 [GitHub](http://github.com)
 ```
 
-## :keyboard: Activity: Add a link
+## :keyboard: Actividad: Add a link
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-images-links`:

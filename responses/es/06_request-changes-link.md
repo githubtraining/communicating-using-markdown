@@ -3,7 +3,7 @@ Something doesn't look quite right with this link. Make sure:
 - The placeholder text is deleted
 - Your link formatting is correct (`[text](url)`)
 
-### :keyboard: Activity: Add a link
+### :keyboard: Actividad: Add a link
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-images-links`:

@@ -1,8 +1,8 @@
-## Step 10: Merge lists and emphasis
+## Paso 10: Merge lists and emphasis
 
 Nice list, @{{ user.username }}! You can merge this pull request when you're ready.
 
-### :keyboard: Activity: Merge the Pull Request
+### :keyboard: Actividad: Merge the Pull Request
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to the `master` branch:

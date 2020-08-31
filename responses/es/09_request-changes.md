@@ -1,6 +1,6 @@
 :thinking: I don't see any text with emphasis yet. To complete this exercise, you need to add some emphasized text to the `_includes/05-emphasis.md` file, in the form of a *bold* or _italicized_ words.
 
-### :keyboard: Activity: Add emphasis
+### :keyboard: Actividad: Add emphasis
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:

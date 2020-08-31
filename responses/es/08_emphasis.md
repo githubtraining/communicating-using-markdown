@@ -1,4 +1,4 @@
-## Step 9: Use emphasis
+## Paso 9: Use emphasis
 
 Great job with those lists! Let's try something new. You can use **bold** and _italic_ text in Markdown. There are a couple of ways to create emphasis.
 
@@ -12,7 +12,7 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-### :keyboard: Activity: Add some _emphasis_
+### :keyboard: Actividad: Add some _emphasis_
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:

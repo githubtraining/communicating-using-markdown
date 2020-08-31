@@ -1,4 +1,4 @@
-## Step 5: Add an image
+## Paso 5: Add an image
 
 Now, you're going to add an image. You can add an image of yourself or anything else you'd like to feature. You'll also learn how to create descriptive text, or "alt text", for images, and how to create links.
 
@@ -11,7 +11,7 @@ Let's add an image. Don't forget to include descriptive text in the square brack
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-### :keyboard: Activity: Adding an image
+### :keyboard: Actividad: Adding an image
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:

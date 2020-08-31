@@ -1,4 +1,4 @@
-## Step 8: Add a list
+## Paso 8: Add a list
 
 In this pull request, you'll learn about lists and emoji. You'll also list a few details in your resume.
 
@@ -80,7 +80,7 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
 
 Help people get to know you by adding a list containing a few of your favorite things. Don't know what to add? Why not add a list of your favorite books or places to eat.
 
-### :keyboard: Activity: Create a list
+### :keyboard: Actividad: Create a list
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:

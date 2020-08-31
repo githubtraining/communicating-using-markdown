@@ -1,4 +1,4 @@
-## Step 3: Add headers
+## Paso 3: Añade encabezados
 
 As you saw on your website, your portfolio doesn't have much content yet. We'll learn how to edit the file in this pull request to incorporate some Markdown headers.
 
@@ -22,7 +22,7 @@ In issues, pull requests, and comments, you can use the text formatting toolbar.
 
 The toolbar isn't available everywhere. When you edit a file, you must type the `#` symbols manually.
 
-### :keyboard: Activity: Edit your file with headers
+### :keyboard: Actividad: Edit your file with headers
 
 {% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.

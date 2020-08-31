@@ -1,8 +1,8 @@
-## Step 7: Merge your image and link
+## Paso 7: Merge your image and link
 
 This looks great, @{{ user.username }}! You've created a link to show off your portfolio, and now you can share it with the world.
 
-### :keyboard: Activity: Merge the Pull Request
+### :keyboard: Actividad: Merge the Pull Request
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to the `master` branch:

@@ -1,17 +1,17 @@
-## Welcome to your repository!
+## ¡Bienvenido a tu repositorio!
 
-In this repository <sup>[:book:](https://help.github.com/articles/github-glossary/#repository)</sup>, you’ll learn how to write with Markdown <sup>[:book:](https://help.github.com/articles/github-glossary/#markdown)</sup>, a simple and widely used markup language for formatting text. Here, you’ll start building a static webpage for your customized portfolio.
+En este repositorio <sup>[:book:](https://help.github.com/articles/github-glossary/#repository)</sup>, aprenderás a escribir usando Markdown <sup>[:book:](https://help.github.com/articles/github-glossary/#markdown)</sup>, un lenguaje de marcado para formatear texto simple y usado muy frecuentemente. Aquí empezarás a crear un sitio web estático para tu portafolio personalizado.
 
-### What is Markdown?
+### ¿Qué es Markdown?
 
-Markdown is a lightweight syntax for communicating on GitHub, and many other websites. You can format words as **bold** or _italic_, add images, and create lists. Markdown is regular text combined with a few non-alphabetic symbols, such as `#` or `*`. You can use Markdown with the formatting toolbar in issues <sup>[:book:](https://help.github.com/articles/github-glossary/#issues)</sup> and pull requests <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>, or you can type the syntax.
+Markdown es una sintaxis ligera para comunicarse en GitHub y en muchos otros sitios web. Puedes formatear palabras **en negrita** o _cursiva_, añadir imágenes o crear listas. Markdown es texto normal combinado con algunos caracteres no alfabéticos, como `#` o `*`. Puedes usar Markdown a través de la barra de formato en las propuestas (o _issues_) <sup>[:book:](https://help.github.com/articles/github-glossary/#issues)</sup> y solicitudes de extracción (o _pull requests_) <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>, o puedes directamente teclear la sintaxis.
 
-You can use Markdown most places around GitHub:
+Puedes usar Markdown en la mayoría de sitios por GitHub:
 
-- Comments in issues and pull requests (like this one!)
-- Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://help.github.com/en/articles/about-gists)
+- Comentarios en propuestas y solicitudes de extracción (¡como esta!)
+- Archivos con la extensión `.md` o `.markdown` 
+- Compartiendo fragmentos de texto a través de [Gists](https://help.github.com/en/articles/about-gists)
 
-For more information, see “[Writing on GitHub](https://help.github.com/categories/writing-on-github/)” in the _GitHub Help_.
+Para más información, revisa “[Writing on GitHub](https://help.github.com/categories/writing-on-github/)” en la _Ayuda de GitHub_.
 
-Let's get started!
+¡Empecemos!
