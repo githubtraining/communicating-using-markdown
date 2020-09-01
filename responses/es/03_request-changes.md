@@ -1,6 +1,6 @@
-You've made a change to this file, but I don't see a header yet. Add another commit with a header. You can continue to make commits on a branch even after you open a pull request.
+Has realizado algún cambio a este archivo, pero no veo ningún encabezado. Añade otra confirmación de cambios (o _commit_) con un encabezado en el archivo. Puedes seguir añadiendo y confirmando cambios en una rama incluso después de iniciar una solicitud de extracción.
 
-### :keyboard: Actividad: Add a header
+### :keyboard: Actividad: Añade un encabezado
 
 {% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.
@@ -31,14 +31,14 @@ You've made a change to this file, but I don't see a header yet. Add another com
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
-1. Scroll to find the `_includes/01-name.md`.
-1. Click the :pencil: pencil icon.
-1. Add a header by including a `#` hash followed by a space.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para buscar el archivo `_includes/01-name.md`.
+1. Haz clic en el icono del :pencil: lápiz.
+1. Añade un encabezado tecleando `#` seguido de un espacio.
+1. Haz scroll a la parte inferior y confirma tus cambios en la rama.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira debajo para ver mi respuesta!</h3>
