@@ -1,28 +1,28 @@
 ## Paso 3: Añade encabezados
 
-As you saw on your website, your portfolio doesn't have much content yet. We'll learn how to edit the file in this pull request to incorporate some Markdown headers.
+Como has podido ver en tu sitio web, tu portafolio no tiene mucho contenido todavía. Aprenderemos a editar un archivo en esta solicitud de extracción para incorporar algunos encabezados en Markdown.
 
-You can see an example of a header at the top of this page! Just like in HTML, a header is a larger bit of text at the beginning of a section. There are six sizes.
+Puedes ver un ejemplo de encabezado en la parte superior de esta página. Exactamente igual que como en HTML, un encabezado es un fragmento de texto un poco más grande al principio de una sección. Hay seis tamaños.
 
-#### Example
+#### Ejemplo
 
 ```
-# This is an <h1> header, which is the largest
-## This is an <h2> header
-###### This is an <h6> header, which is the smallest
+# Esto es un encabezado <h1>, que es el más grande
+## Esto es un encabezado <h2>
+###### Esto es un encabezado <h6>, que es el más pequeño
 ```
 
-#### How it looks
+#### Cómo se muestra
 
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
+# Esto es un encabezado <h1>, que es el más grande
+## Esto es un encabezado <h2>
+###### Esto es un encabezado <h6>, que es el más pequeño
 
-In issues, pull requests, and comments, you can use the text formatting toolbar.
+En propuestas (o _issues_), solicitudes de extracción (o _pull requests_) y comentarios puedes usar la barra de herramientas de formato.
 
-The toolbar isn't available everywhere. When you edit a file, you must type the `#` symbols manually.
+La barra de herramientas no está disponible en todas partes. Cuando editas un archivo, tienes que teclear los caracteres `#` manualmente.
 
-### :keyboard: Actividad: Edit your file with headers
+### :keyboard: Actividad: Edita tu archivo con encabezados
 
 {% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.
@@ -53,13 +53,13 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
       git push
       ```
 {% else %}
-1. In this pull request, click the **Files changed** tab.
-1. In the upper right corner of the file view, click the **small pencil** ✏️ icon for the file titled `_includes/01-name.md`.
-1. On the **Edit file** tab, add a `#` before the content to make it an H1 Header. You can add more headers, using one to six `#` characters.
-1. Above your new content, click **Preview changes**.
-1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-1. Click **Commit changes**.
+1. En esta solicitud de extracción, haz clic en la pestaña **Files changed**.
+1. En el extremo superior derecho de la vista de archivo, haz clic en el icono de **lápiz** ✏️ del archivo titulado `_includes/01-name.md`.
+1. En la pestaña **Edit file**, añade una `#` antes del contenido para convertirlo en un encabezado H1. Puedes añadir más encabezados, usando entre uno y seis caracteres `#`.
+1. Encima de tu nuevo contenido, haz clic en **Preview changes**.
+1. En la parte inferior de la página, escribe un mensaje de confirmación breve y significativo que describa el cambio que has realizado en el archivo.
+1. Haz clic en **Commit changes**.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response.</h3>
+<h3 align="center">Mira mi respuesta aquí debajo.</h3>
