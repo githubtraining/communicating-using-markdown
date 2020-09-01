@@ -22,8 +22,8 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
     git branch -d add-lists-emphasis
     ```
 {% else %}
-1. Click **Merge pull request** below.
+1. Haz clic en **Merge pull request** más abajo.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>

@@ -1,6 +1,6 @@
-:thinking: I don't see any text with emphasis yet. To complete this exercise, you need to add some emphasized text to the `_includes/05-emphasis.md` file, in the form of a *bold* or _italicized_ words.
+:thinking: No veo ningún texto con énfasis todavía. Para completar este ejercicio, necesitas añadir algún texto con énfasis al archivo `_includes/05-emphasis.md`, en forma de palabras en **negrita** o _cursiva_.
 
-### :keyboard: Actividad: Add emphasis
+### :keyboard: Actividad: Añade énfasis
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:
@@ -26,14 +26,14 @@
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
-1. Scroll to find the `_includes/05-emphasis.md`.
-1. Click the :pencil: pencil icon.
-1. Add emphasis using `**` for **bold** or `_` for _italics_ (emphasis should not have a space between the markdown and the word to be modified).
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para localizar el archivo `_includes/05-emphasis.md`.
+1. Haz clic en el icono del :pencil: lápiz.
+1. Añade énfasis utilizando `**` para **negrita** o `_` para _cursiva_ (aquí no debería haber un espacio entre los caracteres de Markdown y la palabra que quieres enfatizar).
+1. Haz scroll a la parte inferior y confirma los cambios a tu rama.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>
