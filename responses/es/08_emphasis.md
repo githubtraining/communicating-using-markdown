@@ -1,18 +1,18 @@
-## Paso 9: Use emphasis
+## Paso 9: Usa énfasis
 
-Great job with those lists! Let's try something new. You can use **bold** and _italic_ text in Markdown. There are a couple of ways to create emphasis.
+¡Buen trabajo con esas listas! Vamos a probar algo nuevo. Puedes usar texto en **negrita** y _cursiva_ en Markdown. Hay un par de formas diferentes para crear énfasis.
 
 ```
-*This text will be italic*
-_This will also be italic_
+*Este texto estará en cursiva*
+_Este también estará en cursiva_
 
-**This text will be bold**
-__This will also be bold__
+**Este texto estará en negrita**
+__Este también estará en negrita__
 
-_You **can** combine them_
+_También **puedes** combinarlos_
 ```
 
-### :keyboard: Actividad: Add some _emphasis_
+### :keyboard: Actividad: Añade algo de _énfasis_
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:
@@ -38,11 +38,11 @@ _You **can** combine them_
       git push
       ```
 {% else %}
-1. Edit the file `_includes/05-emphasis.md` in this pull request.
-1. Use the **Preview** tab and your :sparkles: new Markdown knowledge, add emphasis (like bold or italics) to your skills.
-1. Enter a short and descriptive commit message.
-1. Commit your changes.
+1. Edita el archivo `_includes/05-emphasis.md` en esta solicitud de extracción.
+1. Utilizando la pestaña **Preview** y tu :sparkles: recién estrenado conocimiento de Markdown , añade énfasis (como negrita o cursiva) a tus capacidades.
+1. Introduce un mensaje de confirmación breve y descriptivo.
+1. Confirma tus cambios.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>

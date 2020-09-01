@@ -1,12 +1,12 @@
-Uh oh, we're not finding a list.
+Oh oh, no podemos encontrar tu lista.
 
-Remember the format for a list looks like this:
+Recuerda que el formato de una lista tiene este aspecto:
 
 `- item`
 
-It is important to put a space between the `-` or `*` and the list item text.
+Es importante poner un espacio entre el `-` o `*` y el texto del elemento de lista.
 
-### :keyboard: Actividad: Add a list
+### :keyboard: Actividad: Añade una lista
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
@@ -28,14 +28,14 @@ It is important to put a space between the `-` or `*` and the list item text.
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
-1. Scroll to find the `_includes/04-lists.md`.
-1. Click the :pencil: pencil icon.
-1. Add a list using either `-` or `*` to indicate the bullets.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para localizar el archivo `_includes/04-lists.md`.
+1. Haz clic en el icono del :pencil: lápiz.
+1. Añade una lista usando `-` o `*` para indicar los elementos de la lista.
+1. Haz scroll a la parte inferior y confirma los cambios a tu rama.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>
