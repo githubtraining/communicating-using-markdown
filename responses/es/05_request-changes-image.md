@@ -1,10 +1,10 @@
-Something doesn't look quite right with this image. Make sure:
+Algo no está del todo bien con esa imagen. Asegúrate de que:
 
-- The placeholder text is deleted
-- Your image formatting is correct (`![alt-text](image-url)`)
-- The image has alt text
+- Has eliminado el texto de relleno
+- El formato de tu imagen es el correcto (`![alt-text](url-de-la-imagen)`)
+- La imagen tiene texto alternativo (alt-text)
 
-### :keyboard: Actividad: Add an image
+### :keyboard: Actividad: Añade una imagen
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
@@ -26,14 +26,14 @@ Something doesn't look quite right with this image. Make sure:
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
-1. Scroll to find the `_includes/02-image.md`.
-1. Click the :pencil: pencil icon.
-1. Add an image using the syntax `![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para localizar el archivo `_includes/02-image.md`.
+1. Haz clic en el icono del :pencil: lápiz.
+1. Añade una imagen usando la sintaxis `![Imagen del Yaktocat](https://octodex.github.com/images/yaktocat.png)`.
+1. Haz scroll a la parte inferior y confirma los cambios a tu rama.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>

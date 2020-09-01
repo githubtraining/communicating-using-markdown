@@ -1,8 +1,8 @@
-Nice headers, @{{ user.username }}! You can see your work here: {{ url }}
+¡Bonitos encabezados, @{{ user.username }}! Puedes ver tu trabajo aquí: {{ url }}
 
-### :keyboard: Actividad: Delete your branch
+### :keyboard: Actividad: Elimina tu rama
 
-1. Delete your branch <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup> in this pull request.
+1. Elimina tu rama <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup> en esta solicitud de extracción.
 
 <hr>
-<h3 align="center">Go to <a href="{{ prUrl }}">the next pull request</a> now!</h3>
+<h3 align="center">¡Mira la  <a href="{{ prUrl }}">siguiente solicitud de extracción</a> ahora!</h3>
