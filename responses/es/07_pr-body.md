@@ -1,21 +1,21 @@
-## Paso 8: Add a list
+## Paso 8: Añade una lista
 
-In this pull request, you'll learn about lists and emoji. You'll also list a few details in your resume.
+En esta solicitud de extracción aprenderás sobre listas y emoji. También enumerarás algunos detalles en tu CV.
 
-:point_down: _These are expandable dialogues! Click to open and see more information._
+:point_down: _¡Esto son diálogos expandibles! Haz clic para abrirlos y ver más información._
 
 <details>
   <summary>Emoji</summary>
 
   ### Emoji
 
-  Emoji are fun :sparkles:, and they can be silly :stuck_out_tongue_winking_eye:, but they can also be an important communication tool when working with remote teams ✅. Tone doesn't come across as clearly when reading text as it comes speaking face to face, and emojis can be helpful in conveying context and emotions. :heart:
+  Los emoji son divertidos :sparkles:, y puedens ser un poco tontos :stuck_out_tongue_winking_eye:, pero también pueden ser una importante herramienta de comunicación al trabajar con equipos remotos ✅. El tono no se transmite tan claramente cuando leemos texto, si lo comparamos con una conversación cara a cara, y los emojis pueden ser una ayuda a la hora de comunicar contexto y emociones. :heart:
 
-  Emoji are best used as additive extras, not replacements for text. With images, descriptive text makes it clearer for screen readers, but screen readers aren't guaranteed to convey the intent of an emoji. Make sure your meaning is clear in text, so emoji will help instead of causing more confusion.
+   Los emoji son más apropiados cuando se usan como extras adicionales, no en sustitución del texto. Con las imágenes, el texto descriptivo (alt-text) ayuda a hacerls más accesibles para lectores de pantalla, pero no está garantizado que los lectores de pantalla sepan transmitir la intencionalidad de un emoji. Asegúrate de que tu significado está claro a través del texto, de manera que los emoji resulten de ayuda en lugar de generar más confusión.
 
-  Here are some examples of popular emojis in markdown.
+  Aquí tienes algunos ejemplos de emoji populares en Markdown.
 
-  | What you see | What you type |
+  | Lo que ves | Lo que escribes |
   | ---------- | ------------ |
   | :heart:    | `:heart:`    |
   | :+1:       | `:+1:`       |
@@ -23,19 +23,19 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
   | :sparkles: | `:sparkles:` |
   | :tada:     | `:tada:`     |
 
-  For more information about available emoji, [see this handy cheat sheet](https://gist.github.com/rxaviers/7360908). In most text fields on GitHub, you can type `:` and then begin to type the name of an emoji. A fuzzy search will bring up the 5 best guesses and let you select one.
+  Para más información sobre los emoji disponibles, [revisa esta útil chuleta](https://gist.github.com/rxaviers/7360908). En la mayoría de campos de texto en GitHub, puedes teclear `:` y empezar a escribir el nombre de un emoji. Una búsqueda aproximada te devolverá los cinco mejores resultados y te dejará seleccionar uno.
 
-  ![image of fuzzy search emojis on GitHub](https://user-images.githubusercontent.com/9906718/34602228-47cab148-f1ff-11e7-91f1-56d0fed702f0.png)
+  ![imagen de búsqueda aproximada de emojis en GitHub](https://user-images.githubusercontent.com/9906718/34602228-47cab148-f1ff-11e7-91f1-56d0fed702f0.png)
   <hr>
 </details>
 
 
 <details>
-  <summary>Ordered Lists</summary>
+  <summary>Listas ordenadas</summary>
 
-  ### Ordered Lists
+  ### Listas ordenadas
 
-  Ordered lists have numbers. You can nest ordered lists within a list item by indenting them. You can read more about [formatting and syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/) in the _GitHub Help_.
+  Las listas ordenadas tienen números. Puedes anidar listas ordenadas debajo de un elemento de lista añadiendo espacios a su izquierda. Puedes leer más acerca de [formato y sintaxis](https://help.github.com/articles/basic-writing-and-formatting-syntax/) en la _GitHub Help_.
 
   ```
   1. Item 1
@@ -55,11 +55,11 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
 </details>
 
 <details>
- <summary>Unordered Lists</summary>
+ <summary>Listas desordenadas</summary>
 
-  ### Unordered Lists
+  ### Listas desordenadas
 
-  To create an unordered list, use either the `-` or `*` character. As with ordered lists, you can nest a list by indenting two spaces.
+  Para crear una lista desordenada, usa los caracteres `-` o `*`. Al igual que con las listas ordenadas, puedes anidar una lista añadiendo dos espacios a la izquierda.
 
   ```
   * Item 1
@@ -76,11 +76,11 @@ In this pull request, you'll learn about lists and emoji. You'll also list a few
   <hr>
 </details>
 
-### Adding a list
+### Añadir una lista
 
-Help people get to know you by adding a list containing a few of your favorite things. Don't know what to add? Why not add a list of your favorite books or places to eat.
+Ayuda a que la gente te conozca mejor añadiendo una lista con algunas de tus cosas favoritas. ¿No sabes qué poner? Podrías añadir una lista de tus libros o sitios favoritos donde comer algo.
 
-### :keyboard: Actividad: Create a list
+### :keyboard: Actividad: Crea una lista
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
@@ -102,10 +102,10 @@ Help people get to know you by adding a list containing a few of your favorite t
       git push
       ```
 {% else %}
-1. Edit the `_includes/04-lists.md` in this pull request.
-1. Create a markdown list in the file. It can be ordered or unordered.
-1. Commit your changes.
+1. Edita el archivo `_includes/04-lists.md` en esta solcitud de extracción.
+1. Crea una lista Markdown en el archivo. Puede ser ordenada o desordenada.
+1. Confirma tus cambios.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>
