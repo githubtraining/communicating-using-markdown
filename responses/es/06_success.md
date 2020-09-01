@@ -1,8 +1,8 @@
-## Paso 7: Merge your image and link
+## Paso 7: Combina tu imagen y tu enlace
 
-This looks great, @{{ user.username }}! You've created a link to show off your portfolio, and now you can share it with the world.
+¡Tiene muy buen aspecto, @{{ user.username }}! Has creado un enlace para mostrar en tu portafolio, y ahora puedes compartirlo con el mundo.
 
-### :keyboard: Actividad: Merge the Pull Request
+### :keyboard: Actividad: Combina la solicitud de extracción
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to the `master` branch:
@@ -22,8 +22,8 @@ This looks great, @{{ user.username }}! You've created a link to show off your p
     git branch -d add-images-links
     ```
 {% else %}
-1. Click **Merge pull request** below.
+1. Haz clic en **Merge pull request** más abajo.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>

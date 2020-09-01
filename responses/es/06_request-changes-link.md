@@ -1,9 +1,9 @@
-Something doesn't look quite right with this link. Make sure:
+Algo no pinta bien con ese enlace. Asegúrate de que:
 
-- The placeholder text is deleted
-- Your link formatting is correct (`[text](url)`)
+- Has eliminado el texto de relleno
+- El formato de tu enlace es el correcto (`[texto](url)`)
 
-### :keyboard: Actividad: Add a link
+### :keyboard: Actividad: Añade un enlace
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-images-links`:
@@ -29,14 +29,14 @@ Something doesn't look quite right with this link. Make sure:
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
-1. Scroll to find the `_includes/03-link.md`.
-1. Click the :pencil: pencil icon.
-1. Add a link using the syntax `[text](https://example.com)`.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para localizar el archivo `_includes/03-link.md`.
+1. Haz clic en el icono del :pencil: lápiz.
+1. Añade un enlace utilizando la sintaxis `[texto](https://example.com)`.
+1. Haz scroll a la parte inferior y confirma los cambios a tu rama.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">¡Mira mi respuesta debajo!</h3>
