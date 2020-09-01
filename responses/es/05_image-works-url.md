@@ -11,25 +11,25 @@ Puedes enlazar un [sitio web](https://github.com/), un [repositorio](https://git
 ## :keyboard: Actividad: Añade un enlace
 
 {% if preferences.gitTool == 'cli' %}
-1. In your shell, verify that you are currently checked out to the branch `add-images-links`:
+1. En tu shell, asegúrate de que estás en la rama `add-images-links`:
       ```shell
       git status
       ```
-1. If you are _not_, then checkout to that branch:
+1. Si _no_ lo estás, entonces cámbiate a esa rama:
       ```shell
       git checkout add-images-links
       ```
-1. In your text editor of choice, open the file called `03-links.md`, in the `_includes` directory. Replace the filler text with a link to your GitHub profile (or anywhere else).
-1. Save your file.
-1. Stage your new file:
+1. En tu editor de textos, abre el archivo `03-links.md`, en el directorio `_includes`. Replace the filler text with a link to your GitHub profile (or anywhere else).
+1. Guarda el archivo.
+1. Añade tu archivo nuevo como preparado para confirmar:
       ```shell
       git add _includes/03-links.md
       ```
-1. Commit the change and add a commit message:
+1. Confirma el cambio y añade un mensaje de confirmación:
       ```shell
-      git commit -m "<YOUR MESSAGE>"
+      git commit -m "<TU MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Sube tus nuevos cambios confirmados a GitHub:
       ```shell
       git push
       ```

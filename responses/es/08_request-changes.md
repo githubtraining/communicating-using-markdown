@@ -9,21 +9,21 @@ Es importante poner un espacio entre el `-` o `*` y el texto del elemento de lis
 ### :keyboard: Actividad: Añade una lista
 
 {% if preferences.gitTool == 'cli' %}
-1. In your shell, checkout to the branch in this pull request:
+1. En tu shell, cambia a la rama de esta solicitud de extracción:
       ```shell
       git checkout add-lists-emphasis
       ```
-1. In your text editor of choice, open the file called `04-lists.md`, in the `_includes` directory. Create a markdown list in the file. It can be ordered or unordered. Use either `-` or `*` to indicate the bullets.
-1. Save your file.
-1. Stage your new file:
+1. En tu editor de textos, abre el archivo `04-lists.md`, en el directorio `_includes`. Crea una lista Markdown en el archivo. Puede ser ordenada o desordenada. Usa `-` o `*` para indicar los elementos de la lista.
+1. Guarda el archivo.
+1. Añade tu archivo nuevo como preparado para confirmar:
       ```shell
       git add _includes/04-lists.md
       ```
-1. Commit the change and add a commit message:
+1. Confirma el cambio y añade un mensaje de confirmación:
       ```shell
-      git commit -m "<YOUR MESSAGE>"
+      git commit -m "<TU MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Sube tus nuevos cambios confirmados a GitHub:
       ```shell
       git push
       ```

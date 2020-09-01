@@ -3,25 +3,25 @@
 ### :keyboard: Actividad: Añade énfasis
 
 {% if preferences.gitTool == 'cli' %}
-1. In your shell, verify that you are currently checked out to the branch `add-lists-emphasis`:
+1. En tu shell, asegúrate de que estás en la rama `add-lists-emphasis`:
       ```shell
       git status
       ```
-1. If you are _not_, then checkout to that branch:
+1. Si _no_ lo estás, entonces cámbiate a esa rama:
       ```shell
       git checkout add-lists-emphasis
       ```
-1. In your text editor of choice, open the file called `05-emphasis.md`, in the `_includes` directory. Add some information on your skills, including emphasis (like bold or italics).
-1. Save your file.
-1. Stage your new file:
+1. En tu editor de textos, abre el archivo `05-emphasis.md`, en el directorio `_includes`. Añade alguna información sobre tus habilidades, incluyendo énfasis (como negritas o cursivas).
+1. Guarda el archivo.
+1. Añade tu archivo nuevo como preparado para confirmar:
       ```shell
       git add _includes/05-emphasis.md
       ```
-1. Commit the change and add a commit message:
+1. Confirma el cambio y añade un mensaje de confirmación:
       ```shell
-      git commit -m "<YOUR MESSAGE>"
+      git commit -m "<TU MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Sube tus nuevos cambios confirmados a GitHub:
       ```shell
       git push
       ```

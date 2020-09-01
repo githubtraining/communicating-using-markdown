@@ -14,21 +14,21 @@ Vamos a añadir una imagen. No olvides incluir un texto descriptivo entre los co
 ### :keyboard: Actividad: Añadir una imagen
 
 {% if preferences.gitTool == 'cli' %}
-1. In your shell, checkout to the branch in this pull request:
+1. En tu shell, cambia a la rama de esta solicitud de extracción:
       ```shell
       git checkout add-images-links
       ```
-1. In your text editor of choice, open the file called `02-image.md`, in the `_includes` directory. In the file, replace the content with the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Save your file.
-1. Stage your new file:
+1. En tu editor de textos, abre el archivo `02-image.md`, en el directorio `_includes`. En el archivo, sustituye el contenido con el Markdown correcto para la imagen que has elegido. No te olvides de incluir texto alternativo.
+1. Guarda el archivo.
+1. Añade tu archivo nuevo como preparado para confirmar:
       ```shell
       git add _includes/02-image.md
       ```
-1. Commit the change and add a commit message:
+1. Confirma el cambio y añade un mensaje de confirmación:
       ```shell
-      git commit -m "<YOUR MESSAGE>"
+      git commit -m "<TU MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Sube tus nuevos cambios confirmados a GitHub:
       ```shell
       git push
       ```

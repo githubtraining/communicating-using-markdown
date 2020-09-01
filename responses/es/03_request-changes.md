@@ -3,30 +3,30 @@ Has realizado algún cambio a este archivo, pero no veo ningún encabezado. Aña
 ### :keyboard: Actividad: Añade un encabezado
 
 {% if preferences.gitTool == 'cli' %}
-1. Open your preferred command line interface, which we'll call your shell from now on.
-1. Clone this repository:
+1. Abre tu interfaz de línea de comandos favorita, a la que llamaremos shell a partir de ahora.
+1. Clona este repositorio:
       ```shell
       git clone {{ thePayload.repository.clone_url }}
       ```
-1. Navigate to the repository in your shell:
+1. Navega al repositorio en tu shell:
       ```shell
       cd {{ thePayload.repository.name }}
       ```
-1. Checkout to the branch in this pull request:
+1. Cambia a la rama de esta solicitud de extracción:
       ```shell
       git checkout add-headers
       ```
-1. In your text editor of choice, open the file called `01-name.md`, in the `_includes` directory. On the first line, replace the text with your name, and add a `#` before the content to make it an H1 Header.
-1. Save your file.
-1. Stage your file:
+1. En tu editor de textos, abre el archivo `01-name.md`, en el directorio `_includes`. En la priemra línea, sustituye el texto con tu nombre y añade una `#` antes del contenido para convertirlo en un encabezado H1.
+1. Guarda el archivo.
+1. Añade el archivo como preparado para confirmar:
       ```shell
       git add _includes/01-name.md
       ```
-1. Commit the change and add a commit message:
+1. Confirma el cambio y añade un mensaje de confirmación:
       ```shell
-      git commit -m "<YOUR MESSAGE>"
+      git commit -m "<TU MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Sube tus nuevos cambios confirmados a GitHub:
       ```shell
       git push
       ```
