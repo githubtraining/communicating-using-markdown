@@ -2,7 +2,7 @@
 
 Como has podido ver en tu sitio web, tu portafolio no tiene mucho contenido todavía. Aprenderemos a editar un archivo en esta solicitud de extracción para incorporar algunos encabezados en Markdown.
 
-Puedes ver un ejemplo de encabezado en la parte superior de esta página. Exactamente igual que como en HTML, un encabezado es un fragmento de texto un poco más grande al principio de una sección. Hay seis tamaños.
+Puedes ver un ejemplo de encabezado en la parte superior de esta página. Exactamente igual que en HTML, un encabezado es un fragmento de texto un poco más grande al principio de una sección. Hay seis tamaños.
 
 #### Ejemplo
 
@@ -18,7 +18,7 @@ Puedes ver un ejemplo de encabezado en la parte superior de esta página. Exacta
 ## Esto es un encabezado <h2>
 ###### Esto es un encabezado <h6>, que es el más pequeño
 
-En propuestas (o _issues_), solicitudes de extracción (o _pull requests_) y comentarios puedes usar la barra de herramientas de formato.
+En incidencias (o _issues_), solicitudes de extracción (o _pull requests_) y comentarios puedes usar la barra de herramientas de formato.
 
 La barra de herramientas no está disponible en todas partes. Cuando editas un archivo, tienes que teclear los caracteres `#` manualmente.
 
@@ -38,8 +38,8 @@ La barra de herramientas no está disponible en todas partes. Cuando editas un a
       ```shell
       git checkout add-headers
       ```
-1. En tu editor de textos, abre el archivo `01-name.md`, en el directorio `_includes`. En la priemra línea, sustituye el texto con tu nombre y añade una `#` antes del contenido para convertirlo en un encabezado H1.
-1. Guarda el archivo. Cada vez que hagas algún cambio, es buena idea teclear `git status`. Deberías hacer esto después de que añadas archivos como preparados para confirmar, y después de confirmar cambios. ¡Siempre es una buena idea!
+1. En tu editor de textos, abre el archivo `01-name.md`, en el directorio `_includes`. En la primera línea, sustituye el texto con tu nombre y añade una `#` antes del contenido para convertirlo en un encabezado H1.
+1. Guarda el archivo. Cada vez que hagas algún cambio, es buena idea teclear `git status`. Deberías hacer esto después de que añadas archivos como preparados para confirmar, y después de confirmar cambios. 
 1. Añade el archivo como preparado para confirmar:
       ```shell
       git add _includes/01-name.md

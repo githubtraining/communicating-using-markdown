@@ -2,7 +2,7 @@
 
 ### :keyboard: Actividad: Eliminar la rama
 
-1. Elimina tu rama en esta solicitud de extracción.
+1. Elimina la rama de esta solicitud de extracción.
 
 <hr>
 <h3 align="center">¡Puedes seguir con la <a href="{{ prUrl }}">siguiente actividad</a> ahora!</h3>

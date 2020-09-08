@@ -38,7 +38,7 @@ Has realizado algún cambio a este archivo, pero no veo ningún encabezado. Aña
 1. Haz scroll a la parte inferior y confirma tus cambios en la rama.
 {% endif %}
 
-Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo anteriormente.
 
 <hr>
 <h3 align="center">¡Mira debajo para ver mi respuesta!</h3>

@@ -2,16 +2,16 @@
 
 En esta solicitud de extracción aprenderás sobre listas y emoji. También enumerarás algunos detalles en tu CV.
 
-:point_down: _¡Esto son diálogos expandibles! Haz clic para abrirlos y ver más información._
+:point_down: _¡Estos son diálogos expandibles! Haz clic para abrirlos y ver más información._
 
 <details>
   <summary>Emoji</summary>
 
   ### Emoji
 
-  Los emoji son divertidos :sparkles:, y puedens ser un poco tontos :stuck_out_tongue_winking_eye:, pero también pueden ser una importante herramienta de comunicación al trabajar con equipos remotos ✅. El tono no se transmite tan claramente cuando leemos texto, si lo comparamos con una conversación cara a cara, y los emojis pueden ser una ayuda a la hora de comunicar contexto y emociones. :heart:
+  Los emoji son divertidos :sparkles:, y pueden ser un poco tontos :stuck_out_tongue_winking_eye:, pero también pueden ser una importante herramienta de comunicación al trabajar con equipos remotos ✅. El tono no se transmite tan claramente cuando leemos texto, si lo comparamos con una conversación cara a cara, y los emojis pueden ser una ayuda a la hora de comunicar contexto y emociones. :heart:
 
-   Los emoji son más apropiados cuando se usan como extras adicionales, no en sustitución del texto. Con las imágenes, el texto descriptivo (alt-text) ayuda a hacerls más accesibles para lectores de pantalla, pero no está garantizado que los lectores de pantalla sepan transmitir la intencionalidad de un emoji. Asegúrate de que tu significado está claro a través del texto, de manera que los emoji resulten de ayuda en lugar de generar más confusión.
+   Los emoji son más apropiados cuando se usan como extras adicionales, no en sustitución del texto. Con las imágenes, el texto descriptivo (alt-text) ayuda a hacerla más accesibles para lectores de pantalla, pero no está garantizado que los lectores de pantalla sepan transmitir la intencionalidad de un emoji. Asegúrate de que tu significado está claro a través del texto, de manera que los emoji resulten de ayuda en lugar de generar más confusión.
 
   Aquí tienes algunos ejemplos de emoji populares en Markdown.
 

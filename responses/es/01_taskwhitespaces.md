@@ -6,7 +6,7 @@ El formato para las listas de tareas requiere que haya exactamente un espacio en
 
 ### :keyboard: Actividad: Añade una lista de tareas
 
-Añade un comentario a esta propuesta. Utiliza Markdown para crear una lista de tareas o cosas que hacer. Aquí tienes un ejemplo:
+Añade un comentario a esta incidencia. Utiliza Markdown para crear una lista de tareas o cosas que hacer. Aquí tienes un ejemplo:
 
 ```
 - [ ] Activar GitHub Pages

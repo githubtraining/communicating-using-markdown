@@ -35,7 +35,7 @@ Es importante poner un espacio entre el `-` o `*` y el texto del elemento de lis
 1. Haz scroll a la parte inferior y confirma los cambios a tu rama.
 {% endif %}
 
-Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo en el pasado.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). Puede que también quieras realizar una búsqueda para ver si alguien ha resuelto algún problema como el tuyo anteriormente.
 
 <hr>
 <h3 align="center">¡Mira mi respuesta debajo!</h3>

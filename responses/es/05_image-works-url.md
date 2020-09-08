@@ -1,6 +1,6 @@
 ## Paso 6: Añade un enlace de perfil
 
-¡Tu imagen tiene muy buen aspecto! Ahora querrás añadir enlaces a los impresionantes proyectos de tu portafolio. Los enlaces ayudan a crear contexto cuando te comunicas en las propuestas (o _issues_) y solicitudes de extracción (o _pull requests_).
+¡Tu imagen tiene muy buen aspecto! Ahora querrás añadir enlaces a los impresionantes proyectos de tu portafolio. Los enlaces ayudan a crear contexto cuando te comunicas en las incidencias (o _issues_) y solicitudes de extracción (o _pull requests_).
 
 Puedes enlazar un [sitio web](https://github.com/), un [repositorio](https://github.com/github/training-kit), o incluso una [línea de código](https://github.com/github/training-kit/blob/master/resources/learning-path/index.html#L32). Para crear un enlace, coloca el texto que quieres mostrar entre corchetes, y la URL a continuación entre paréntesis.
 
@@ -19,7 +19,7 @@ Puedes enlazar un [sitio web](https://github.com/), un [repositorio](https://git
       ```shell
       git checkout add-images-links
       ```
-1. En tu editor de textos, abre el archivo `03-links.md`, en el directorio `_includes`. Replace the filler text with a link to your GitHub profile (or anywhere else).
+1. En tu editor de textos, abre el archivo `03-links.md`, en el directorio `_includes`. Sustituye el texto de relleno con un enlace a tu perfil en GitHub (o a cualquier otro sitio).
 1. Guarda el archivo.
 1. Añade tu archivo nuevo como preparado para confirmar:
       ```shell

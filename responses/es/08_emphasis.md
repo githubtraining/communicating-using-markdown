@@ -39,7 +39,7 @@ _También **puedes** combinarlos_
       ```
 {% else %}
 1. Edita el archivo `_includes/05-emphasis.md` en esta solicitud de extracción.
-1. Utilizando la pestaña **Preview** y tu :sparkles: recién estrenado conocimiento de Markdown , añade énfasis (como negrita o cursiva) a tus capacidades.
+1. Utilizando la pestaña **Preview** y tu :sparkles: recién estrenado conocimiento de Markdown, añade énfasis (como negrita o cursiva) a tus capacidades.
 1. Introduce un mensaje de confirmación breve y descriptivo.
 1. Confirma tus cambios.
 {% endif %}

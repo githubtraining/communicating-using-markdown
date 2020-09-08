@@ -6,7 +6,7 @@ No veo una lista de tareas en ese comentario. Recuerda, una lista de tareas empi
 - [ ] Presentarme al mundo
 ```
 
-Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). También podrías realizar una búsqueda con tu problema para ver si otras personas han conseguido resolverlo en el pasado.
+Si necesitas ayuda para resolver algún problema, crea un post en el tablón de [GitHub Community]({{ communityBoard }}). También podrías realizar una búsqueda con tu problema para ver si otras personas han conseguido resolverlo anteriormente.
 
 <hr>
 <h3 align="center">Mira debajo de tu comentario para ver mi respuesta</h3>

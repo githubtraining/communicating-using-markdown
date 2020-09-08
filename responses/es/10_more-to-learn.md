@@ -8,18 +8,18 @@ Enhorabuena @{{ user.username }}, ¡has completado este curso!
 
 En este curso has conseguido:
 
-- Añadir una lista de tareas a un comentario en una propuesta
+- Añadir una lista de tareas a un comentario en una incidencia
 - Activar GitHub Pages en tu repositorio
-- Confirmado cambios a tu sitio web, en concreto:
+- Confirmar cambios a tu sitio web, en concreto:
     - Añadiste encabezados al archivo `01-name.md`
     - Insertaste una imagen en el archivo `02-image.md` 
     - Creaste enlaces a otros sitios web en el archivo `03-links.md` 
-    - Añadiste una lista de tus logros en el arhivo `04-lists.md` 
+    - Añadiste una lista de tus logros en el archivo `04-lists.md` 
     - Usaste énfasis como **negrita** y _cursiva_ en el archivo `05-emphasis.md` 
 
 ## ¿Y ahora, qué?
 
-Ahora que ya controlas lo más básico de Markdown, @{{ user.username }}, aquí tienes algunas informaciones rápidas acerca de otras funcionalidades interseantes que no hemos visto.
+Ahora que ya dominas los aspectos básicos de Markdown, @{{ user.username }}, aquí tienes alguna información rápida acerca de otras funcionalidades interesantes que no hemos visto hasta ahora.
 
 ### Más enlaces en Markdown
 
@@ -28,7 +28,7 @@ Ahora que ya controlas lo más básico de Markdown, @{{ user.username }}, aquí 
 
   ### @menciones de Usuarios y Equipos
 
-  Si tecleas el símbolo `@` seguido de un nombre de usuario de GitHub, se enviará una notificación a esa persona acerca de tu comentario. Esto se llama una "@mencion", porque estás mencionando a otra persona. También puedes `@mencionar` equipos dentro de una misma organización. Para más información, puedes consultar “[Receiving notifications about activity on GitHub](https://help.github.com/categories/receiving-notifications-about-activity-on-github/) en *GitHub Help*.
+  Si tecleas el símbolo `@` seguido de un nombre de usuario de GitHub, se enviará una notificación a esa persona para informarle acerca de tu comentario. Esto se llama una "@mencion", porque estás mencionando a otra persona. También puedes `@mencionar` equipos dentro de una misma organización. Para más información, puedes consultar “[Receiving notifications about activity on GitHub](https://help.github.com/categories/receiving-notifications-about-activity-on-github/) en *GitHub Help*.
 
   ```
   @githubteacher
@@ -44,16 +44,16 @@ Ahora que ya controlas lo más básico de Markdown, @{{ user.username }}, aquí 
 
   ### Enlaces cruzados
 
-  Para obtener una lista de propuestas (o _issues_) y solicitudes de extracción (o _pull requests_) en un repositorio, teclea `#`. Escribe el número o el título de la propuesta o solicitud de extracción para filtrar la lista, y presiona el Tabulador o Enter para completar el resultado resaltado.
+  Para obtener una lista de incidencias (o _issues_) y solicitudes de extracción (o _pull requests_) en un repositorio, teclea `#`. Escribe el número o el título de la incidencia o solicitud de extracción para filtrar la lista, y presiona el Tabulador o Enter para completar el resultado resaltado.
   
-  Además, las referencias a propuestas o solicitudes de extracción se convierten automáticamente en enlaces abreviados a la propuesta o solicitud de extracción en cuestión. Por ejemplo,
+  Además, las referencias a incidencias o solicitudes de extracción se convierten automáticamente en enlaces abreviados a la incidencia o solicitud de extracción en cuestión. Por ejemplo,
   
   | Tipo de referencia | Referencia en bruto | Enlace abreviado |
   | -------------- | ------------- | ---------- |
-  |  URL de la propuesta o solicitud de extracción | `https://github.com/desktop/desktop/pull/3602` | [#3602](https://github.com/desktop/desktop/pull/3602) |
-  | `#` seguido del número de la propuesta o solicitud de extracción | #3602 | [#3602](https://github.com/desktop/desktop/pull/3602) |
-  | `GH-` seguido del número de la propuesta o solicitud de extracción | GH-3602 | [GH-3602](https://github.com/desktop/desktop/pull/3602) |
-  | `Username/Repository#` seguido del número de la propuesta o solicitud de extracción | desktop/desktop#3602 | [desktop/desktop#3602](https://github.com/desktop/desktop/pull/3602) |
+  |  URL de la incidencia o solicitud de extracción | `https://github.com/desktop/desktop/pull/3602` | [#3602](https://github.com/desktop/desktop/pull/3602) |
+  | `#` seguido del número de la incidencia o solicitud de extracción | #3602 | [#3602](https://github.com/desktop/desktop/pull/3602) |
+  | `GH-` seguido del número de la incidencia o solicitud de extracción | GH-3602 | [GH-3602](https://github.com/desktop/desktop/pull/3602) |
+  | `Username/Repository#` seguido del número de la incidencia o solicitud de extracción | desktop/desktop#3602 | [desktop/desktop#3602](https://github.com/desktop/desktop/pull/3602) |
 
   Para más información, consulta “[Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/)” en *GitHub Help*.
 
@@ -168,7 +168,7 @@ Ahora que ya controlas lo más básico de Markdown, @{{ user.username }}, aquí 
 
   ### Resaltado de sintaxis
 
-  Además de los bloques de código, algunos de ellos deberían mostrarse de maneras diferentes según el lenguaje de programación que usen, como JavaScript o texto para la línea de comandos.
+  Además de los bloques de código, algunos de ellos deberían mostrarse de maneras diferentes según el lenguaje de programación que se use, como JavaScript o texto de línea de comandos.
   
   Lo que escribimos:
 
@@ -192,7 +192,7 @@ Ahora que ya controlas lo más básico de Markdown, @{{ user.username }}, aquí 
 
   ### Desplegable de resumen
 
-  La mayoría del texto en esta propuesta esta formateado en bloques de texto despegables. Así es como puedes hacerlos con Markdown:
+  La mayoría del texto en esta incidencia esta formateado en bloques de texto despegables. Así es como puedes hacerlos con Markdown:
 
   ```
   <details>
@@ -209,4 +209,4 @@ Ahora que ya controlas lo más básico de Markdown, @{{ user.username }}, aquí 
 ¿Quieres seguir aprendiendo? Puedes [comprobar otros cursos]({{ host }}/courses).
 
 <hr>
-<h3 align="center">No responderé a esta propuesta, simplemente ciérrala cuando hayas acabado.</h3>
+<h3 align="center">No responderé a esta incidencia, simplemente ciérrala cuando hayas acabado.</h3>
