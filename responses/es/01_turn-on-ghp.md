@@ -13,4 +13,4 @@ Ahora centrémonos en el contenido de tu portafolio. Dado que este portafolio se
 > _Para más información, consulta [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) en la Ayuda de GitHub._
 
 <hr>
-<h3 align="center">Vuelve a esta incidencia para los próximos pasos.</h3>
+<h3 align="center">Vuelve a esta propuesta para los próximos pasos.</h3>

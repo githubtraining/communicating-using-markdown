@@ -18,7 +18,7 @@ Puedes ver un ejemplo de encabezado en la parte superior de esta página. Exacta
 ## Esto es un encabezado <h2>
 ###### Esto es un encabezado <h6>, que es el más pequeño
 
-En incidencias (o _issues_), solicitudes de extracción (o _pull requests_) y comentarios puedes usar la barra de herramientas de formato.
+En propuestas (o _issues_), solicitudes de extracción (o _pull requests_) y comentarios puedes usar la barra de herramientas de formato.
 
 La barra de herramientas no está disponible en todas partes. Cuando editas un archivo, tienes que teclear los caracteres `#` manualmente.
 

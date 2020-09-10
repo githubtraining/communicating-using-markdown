@@ -4,11 +4,11 @@ En este repositorio <sup>[:book:](https://help.github.com/articles/github-glossa
 
 ### ¿Qué es Markdown?
 
-Markdown es una sintaxis ligera para comunicarse en GitHub y en muchos otros sitios web. Puedes formatear palabras **en negrita** o _cursiva_, añadir imágenes o crear listas. Markdown es texto normal combinado con algunos caracteres no alfabéticos, como `#` o `*`. Puedes usar Markdown a través de la barra de formato en las incidencias (o _issues_) <sup>[:book:](https://help.github.com/articles/github-glossary/#issues)</sup> y solicitudes de extracción (o _pull requests_) <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>, o puedes directamente teclear la sintaxis.
+Markdown es una sintaxis ligera para comunicarse en GitHub y en muchos otros sitios web. Puedes formatear palabras **en negrita** o _cursiva_, añadir imágenes o crear listas. Markdown es texto normal combinado con algunos caracteres no alfabéticos, como `#` o `*`. Puedes usar Markdown a través de la barra de formato en las propuestas (o _issues_) <sup>[:book:](https://help.github.com/articles/github-glossary/#issues)</sup> y solicitudes de extracción (o _pull requests_) <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>, o puedes directamente teclear la sintaxis.
 
 Puedes usar Markdown en la mayoría de sitios web de GitHub:
 
-- Comentarios en incidencias y solicitudes de extracción (¡como esta!)
+- Comentarios en propuestas y solicitudes de extracción (¡como esta!)
 - Archivos con la extensión `.md` o `.markdown` 
 - Compartiendo fragmentos de texto a través de [Gists](https://help.github.com/en/articles/about-gists)
 

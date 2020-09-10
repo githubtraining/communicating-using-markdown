@@ -1,6 +1,6 @@
 ## Paso 6: Añade un enlace de perfil
 
-¡Tu imagen tiene muy buen aspecto! Ahora querrás añadir enlaces a los impresionantes proyectos de tu portafolio. Los enlaces ayudan a crear contexto cuando te comunicas en las incidencias (o _issues_) y solicitudes de extracción (o _pull requests_).
+¡Tu imagen tiene muy buen aspecto! Ahora querrás añadir enlaces a los impresionantes proyectos de tu portafolio. Los enlaces ayudan a crear contexto cuando te comunicas en las propuestas (o _issues_) y solicitudes de extracción (o _pull requests_).
 
 Puedes enlazar un [sitio web](https://github.com/), un [repositorio](https://github.com/github/training-kit), o incluso una [línea de código](https://github.com/github/training-kit/blob/master/resources/learning-path/index.html#L32). Para crear un enlace, coloca el texto que quieres mostrar entre corchetes, y la URL a continuación entre paréntesis.
 

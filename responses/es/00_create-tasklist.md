@@ -1,8 +1,8 @@
 ## Paso 1: Crea una lista de tareas
 
-Una lista de tareas crea casillas que las personas con acceso <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> en un repositorio pueden marcar como completadas. Son muy útiles para seguir el progreso de incidencias y solicitudes de extracción.
+Una lista de tareas crea casillas que las personas con acceso <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> en un repositorio pueden marcar como completadas. Son muy útiles para seguir el progreso de propuestas y solicitudes de extracción.
 
-Si incluyes una lista de tareas en el cuerpo de una incidencia o una solicitud de extracción, verás una barra de progreso en tu lista de incidencias.
+Si incluyes una lista de tareas en el cuerpo de una propuesta o una solicitud de extracción, verás una barra de progreso en tu lista de propuestas.
 
 ¡Cuidado! La sintaxis para listas de tareas es muy específica. Asegúrate de incluir los espacios donde hacen falta, de lo contrario no se mostrarán correctamente.
 
@@ -27,7 +27,7 @@ Si incluyes una lista de tareas en el cuerpo de una incidencia o una solicitud d
 
 ### :keyboard: Actividad: Añade un comentario
 
-1. Añade un comentario a esta incidencia, usando Markdown para crear una lista de elementos a completar. Tu lista puede incluir las tareas que quieras, o puedes usar este ejemplo:
+1. Añade un comentario a esta propuesta, usando Markdown para crear una lista de elementos a completar. Tu lista puede incluir las tareas que quieras, o puedes usar este ejemplo:
 
        - [ ] Activar GitHub Pages
        - [ ] Hacer un esquema de mi portafolio

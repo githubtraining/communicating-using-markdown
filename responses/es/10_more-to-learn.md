@@ -8,7 +8,7 @@ Enhorabuena @{{ user.username }}, ¡has completado este curso!
 
 En este curso has conseguido:
 
-- Añadir una lista de tareas a un comentario en una incidencia
+- Añadir una lista de tareas a un comentario en una propuesta
 - Activar GitHub Pages en tu repositorio
 - Confirmar cambios a tu sitio web, en concreto:
     - Añadiste encabezados al archivo `01-name.md`
@@ -44,16 +44,16 @@ Ahora que ya dominas los aspectos básicos de Markdown, @{{ user.username }}, aq
 
   ### Enlaces cruzados
 
-  Para obtener una lista de incidencias (o _issues_) y solicitudes de extracción (o _pull requests_) en un repositorio, teclea `#`. Escribe el número o el título de la incidencia o solicitud de extracción para filtrar la lista, y presiona el Tabulador o Enter para completar el resultado resaltado.
+  Para obtener una lista de propuestas (o _issues_) y solicitudes de extracción (o _pull requests_) en un repositorio, teclea `#`. Escribe el número o el título de la propuesta o solicitud de extracción para filtrar la lista, y presiona el Tabulador o Enter para completar el resultado resaltado.
   
-  Además, las referencias a incidencias o solicitudes de extracción se convierten automáticamente en enlaces abreviados a la incidencia o solicitud de extracción en cuestión. Por ejemplo,
+  Además, las referencias a propuestas o solicitudes de extracción se convierten automáticamente en enlaces abreviados a la propuesta o solicitud de extracción en cuestión. Por ejemplo,
   
   | Tipo de referencia | Referencia en bruto | Enlace abreviado |
   | -------------- | ------------- | ---------- |
-  |  URL de la incidencia o solicitud de extracción | `https://github.com/desktop/desktop/pull/3602` | [#3602](https://github.com/desktop/desktop/pull/3602) |
-  | `#` seguido del número de la incidencia o solicitud de extracción | #3602 | [#3602](https://github.com/desktop/desktop/pull/3602) |
-  | `GH-` seguido del número de la incidencia o solicitud de extracción | GH-3602 | [GH-3602](https://github.com/desktop/desktop/pull/3602) |
-  | `Username/Repository#` seguido del número de la incidencia o solicitud de extracción | desktop/desktop#3602 | [desktop/desktop#3602](https://github.com/desktop/desktop/pull/3602) |
+  |  URL de la propuesta o solicitud de extracción | `https://github.com/desktop/desktop/pull/3602` | [#3602](https://github.com/desktop/desktop/pull/3602) |
+  | `#` seguido del número de la propuesta o solicitud de extracción | #3602 | [#3602](https://github.com/desktop/desktop/pull/3602) |
+  | `GH-` seguido del número de la propuesta o solicitud de extracción | GH-3602 | [GH-3602](https://github.com/desktop/desktop/pull/3602) |
+  | `Username/Repository#` seguido del número de la propuesta o solicitud de extracción | desktop/desktop#3602 | [desktop/desktop#3602](https://github.com/desktop/desktop/pull/3602) |
 
   Para más información, consulta “[Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/)” en *GitHub Help*.
 
@@ -192,7 +192,7 @@ Ahora que ya dominas los aspectos básicos de Markdown, @{{ user.username }}, aq
 
   ### Desplegable de resumen
 
-  La mayoría del texto en esta incidencia esta formateado en bloques de texto despegables. Así es como puedes hacerlos con Markdown:
+  La mayoría del texto en esta propuesta esta formateado en bloques de texto despegables. Así es como puedes hacerlos con Markdown:
 
   ```
   <details>
@@ -209,4 +209,4 @@ Ahora que ya dominas los aspectos básicos de Markdown, @{{ user.username }}, aq
 ¿Quieres seguir aprendiendo? Puedes [comprobar otros cursos]({{ host }}/courses).
 
 <hr>
-<h3 align="center">No responderé a esta incidencia, simplemente ciérrala cuando hayas acabado.</h3>
+<h3 align="center">No responderé a esta propuesta, simplemente ciérrala cuando hayas acabado.</h3>
