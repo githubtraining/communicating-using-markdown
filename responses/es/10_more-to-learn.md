@@ -28,7 +28,7 @@ Ahora que ya dominas los aspectos básicos de Markdown, @{{ user.username }}, aq
 
   ### @menciones de Usuarios y Equipos
 
-  Si tecleas el símbolo `@` seguido de un nombre de usuario de GitHub, se enviará una notificación a esa persona para informarle acerca de tu comentario. Esto se llama una "@mencion", porque estás mencionando a otra persona. También puedes `@mencionar` equipos dentro de una misma organización. Para más información, puedes consultar “[Receiving notifications about activity on GitHub](https://help.github.com/categories/receiving-notifications-about-activity-on-github/) en *GitHub Help*.
+  Si tecleas el símbolo `@` seguido de un nombre de usuario de GitHub, se enviará una notificación a esa persona para informarle acerca de tu comentario. Esto se llama una "@mencion", porque estás mencionando a otra persona. También puedes `@mencionar` equipos dentro de una misma organización. Para más información, puedes consultar “[Recibir notificaciones acerca de la actividad en GitHub](https://help.github.com/categories/receiving-notifications-about-activity-on-github/) en *GitHub Help*.
 
   ```
   @githubteacher
