@@ -1,6 +1,6 @@
 ## Paso 1: Crea una lista de tareas
 
-Una lista de tareas crea casillas que las personas con acceso <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> en un repositorio pueden marcar como completadas. Son muy útiles para seguir el progreso de propuestas y solicitudes de extracción.
+Una lista de tareas crea casillas que las personas con acceso <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> en un repositorio pueden marcar como completadas. Son muy útiles para seguir las incidencias y las solicitudes de extracción.
 
 Si incluyes una lista de tareas en el cuerpo de una propuesta o una solicitud de extracción, verás una barra de progreso en tu lista de propuestas.
 
