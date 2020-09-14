@@ -119,7 +119,7 @@ Ahora que ya dominas los aspectos básicos de Markdown, @{{ user.username }}, aq
   Contenido de la celda 1 | Contenido de la celda 2
   Contenido de la primera columna | Contenido de la segunda columna
 
-  Para más detalles acerca de formatear tablas, consulta "Organizing information with tables" en _GitHub Help_.
+  Para más detalles acerca de formatear tablas, consulta "[Organizar la información en tablas](https://docs.github.com/github/writing-on-github/organizing-information-with-tables)" en _GitHub Help_.
 
 <hr>
 </details>
