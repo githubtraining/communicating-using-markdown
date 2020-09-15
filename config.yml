@@ -13,6 +13,15 @@ preferences:
         value: dotcom
       - label: Command line
         value: cli
+  - type: dropdown
+    name: language
+    label: Language
+    description: Choose your preferred language.
+    options:
+    - label: English
+      value: en
+    - label: Español
+      value: es
 tags: [
   "GitHub","Markdown"
 ]
