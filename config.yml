@@ -27,7 +27,7 @@ tags: [
 ]
 before:
   - type: updateBranchProtection
-    branch: master
+    branch: main
     enforce_admins: true
     required_pull_request_reviews:
       include_admins: true

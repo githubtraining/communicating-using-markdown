@@ -95,7 +95,7 @@ Since this project is going to be a static web page, the first thing you'll need
 ### :memo: Activity: Enable GitHub Pages
 1. Under your repository name in this repository, click **Settings**.
       ![image of settings tab](https://help.github.com/assets/images/help/repository/repo-actions-settings.png)
-1. Use the Select source drop-down menu to select `master` as your GitHub Pages publishing source.
+1. Use the Select source drop-down menu to select `main` as your GitHub Pages publishing source.
       ![image of selecting a source](https://help.github.com/assets/images/help/pages/select-master-branch-docs-folder-as-source.png)
 1. Click **Save**.
       ![image of clicking save](https://help.github.com/assets/images/help/pages/click-save-next-to-master-branch-docs-folder-source-selection.png)
@@ -263,7 +263,7 @@ _You **can** combine them_
 
 ### :memo: Activity: Fix the markdown
 
-1. Create a pull request with `base: master` and `compare: fix-markdown`.
+1. Create a pull request with `base: main` and `compare: fix-markdown`.
 1. Edit the file in this pull request.
 1. By using the **Preview** tab and your :sparkles: new Markdown knowledge, see what markdown is broken.
 1. Fix the markdown.

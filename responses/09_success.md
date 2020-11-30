@@ -5,9 +5,9 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
 ### :keyboard: Activity: Merge the Pull Request
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to the `master` branch:
+1. Check out to the `main` branch:
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. Merge your branch:
     ```shell

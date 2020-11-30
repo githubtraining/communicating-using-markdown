@@ -24,7 +24,7 @@ In this course, you'll learn:
 | Student action | App response |
 | -------------- | ------------ |
 | Writes a task list | Comments in issue #1 to enable pages (01a-turn-on-ghp.md) |
-| Enable GitHub Pages from `master` | Comments in issue #1 congrats (01b-close-issue.md), Opens PR #2 (title: Outline your portfolio, body-contents: 02-headers.md, pr-contents: 02-resume.md) |
+| Enable GitHub Pages from `main` | Comments in issue #1 congrats (01b-close-issue.md), Opens PR #2 (title: Outline your portfolio, body-contents: 02-headers.md, pr-contents: 02-resume.md) |
 | Edit file in PR #2 by adding header formatting | Validate via status check and/or PR review, comments (03-pr-succeeds.md) or (03-request-changes.md) |
 | Merge pull request #2 | Comments (03-next.md) in PR #2, opens PR #3 (title: Introduce yourself to the world, body-contents: 04-add-image.md, pr-contents: "Add image here" on line 2 or 3 of README.md) |
 | Add's image in PR #3 | Validate via status check and/or PR review, comments (04-image-works-url.md) or (04-request-changes.md) |

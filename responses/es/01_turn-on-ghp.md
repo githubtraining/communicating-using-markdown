@@ -6,7 +6,7 @@ Ahora centrémonos en el contenido de tu portafolio. Dado que este portafolio se
 
 ### :keyboard: Actividad: Activa GitHub Pages
 1. Debajo del nombre de tu repositorio, haz clic en [**Settings**]({{ repoUrl }}/settings).
-1. En la sección **GitHub Pages**, utiliza el desplegable **Select source** para seleccionar `master` como tu fuente de publicación para GitHub Pages.
+1. En la sección **GitHub Pages**, utiliza el desplegable **Select source** para seleccionar `main` como tu fuente de publicación para GitHub Pages.
 
 > _Puede que tarde hasta un minuto responder mientras GitHub Pages crea un despliegue de tu repositorio._ 
 
