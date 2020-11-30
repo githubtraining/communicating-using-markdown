@@ -5,9 +5,9 @@ Veo que has añadido al menos un encabezado, @{{ user.username }}. Puedes contin
 ### :keyboard: Actividad: Combina la solicitud de extracción
 
 {% if preferences.gitTool == 'cli' %}
-1. Cámbiate a la rama `master`:
+1. Cámbiate a la rama `main`:
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. Combina tu rama:
     ```shell

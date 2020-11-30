@@ -5,9 +5,9 @@ I see you've added at least one header, @{{ user.username }}. You can continue w
 ### :keyboard: Activity: Merge the Pull Request
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to the `master` branch:
+1. Check out to the `main` branch:
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. Merge your branch:
     ```shell
