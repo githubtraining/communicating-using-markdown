@@ -1,6 +1,6 @@
 ## Step 2: Turn on GitHub Pages
 
-Nicely done @{{ user.username }}!
+### Nicely done @{{ user.username }}!
 
 Now let's turn our focus to the content of your portfolio. Because this portfolio will display as a static web page, you'll need to enable GitHub Pages.
 
