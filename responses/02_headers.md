@@ -58,7 +58,7 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
 1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
 1. Above your new content, click **Preview changes**.
 1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-1. Click **Commit changes**.
+1. Click **Commit changes**. 
 {% endif %}
 
 <hr>
