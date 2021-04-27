@@ -10,7 +10,8 @@ Now let's turn our focus to the content of your portfolio. Because this portfoli
 3. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `main` as your GitHub Pages publishing source.
 4. Click the **Save** button.
 5. Read the page. Make no changes to the Theme. When ready under your repository name at the upper right click **Issues(1)**
-6. Then click on the **closed** issue and scroll down to find your last progress and instruction for the next step. 
+6. Then click on **closed** 
+7. Then click on "Getting Started with GitHub" issue and scroll down to find your last progress and instruction for the next step.
 
 > _I may take up to a minute to respond as I wait for GitHub Pages to create a deployment of your repository_.
 
