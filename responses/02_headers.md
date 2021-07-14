@@ -54,7 +54,7 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
       ```
 {% else %}
 1. In this pull request, click the **Files changed** tab.
-1. In the upper right corner of the file view, click the **small pencil** ✏️ or **hamburger ...** icon to edit the file titled `_includes/01-name.md`.
+1. To edit the file titled `_includes/01-name.md`, click the **small pencil** ✏️ or select "Edit file" from the three dotted **...** menu in the upper right corner of the file view.
 1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
 1. Above your new content, click **Preview changes**.
 1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
